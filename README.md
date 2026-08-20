@@ -321,15 +321,15 @@ Clasifique sus hallazgos:
 
 ## Elementos observados directamente
 
--   
--   
--   
+-Las características exactas de las solicitudes y respuestas de red: URL solicitada, metodo HTTP utilizado (GET), codigos de estado (200 OK) y el peso/tiempo de los recursos.   
+-La estructura temporal del documento (DOM) que el navegador construye en la memoria local usando las etiquetas HTML proporcionadas por el servidor.   
+-La carga fragmentada de la página web mediante múltiples peticiones individuales para obtener recursos estáticos (hojas de estilo CSS, scripts JS, imágenes e íconos).   
 
 ## Elementos inferidos
 
--   
--   
--   
+-El procesamiento interno, logica de enrutamiento y el lenguaje de backend que utiliza el servidor del ITM para armar el archivo HTML antes de enviarlo.   
+-La arquitectura de la base de datos donde se almacenan los textos, enlaces y configuraciones de la página.   
+-Los mecanismos de seguridad y permisos en el servidor que garantizan que los cambios locales realizados en el DOM por un cliente no sobrescriban los archivos originales.   
 
 > No presente como observado un proceso interno que las herramientas del
 > navegador no permitan comprobar directamente.
@@ -340,9 +340,9 @@ Clasifique sus hallazgos:
 
 Redacte **tres conclusiones técnicas** derivadas de la práctica.
 
-1.  
-2.  
-3.  
+1.Se evidencio que la carga de una aplicacion web no es una transaccion unica, sino un proceso compuesto.  
+2.La practica demostro la estricta separacion entre el cliente y el servidor. Al modificar etiquetas y textos mediante la herramienta Elements, se comprobo que el DOM es únicamente una representacion temporal  
+3.Se comprobo que las interfaces dinamicas actuan como intermediarias logicas. Una simple accion del usuario, como un clic en un enlace de navegacion, es interpretada y transformada por el navegador en una solicitud HTTP estandarizada, cerrando el ciclo de comunicacion cliente-servidor al recibir e interpretar codigos de estado de exito (como el 200 OK).  
 
 Las conclusiones deben explicar lo aprendido a partir de la evidencia y
 no limitarse a describir las actividades realizadas.
