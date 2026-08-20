@@ -236,12 +236,12 @@ Observe si aparece una nueva solicitud en Network.
 
   Elemento                       Resultado
   ------------------------------ -----------
-  Acción realizada               
-  ¿Generó una nueva solicitud?   
-  URL solicitada                 
-  Método HTTP                    
-  Código de estado               
-  Tipo de respuesta              
+  Acción realizada: Seleccion de laa opcion "Pagos en linea"               
+  ¿Generó una nueva solicitud?: Si, genero la solicitud de "pagos-en-linea/"  
+  URL solicitada: https://www.itm.edu.co/pagos-en-linea/                 
+  Método HTTP: GET                    
+  Código de estado: 200 OK               
+  Tipo de respuesta: text/HTML              
 
 ## Ciclo de interacción
 
@@ -277,7 +277,7 @@ Inclúyala aquí:
 **Explique la relación entre la acción realizada por el usuario y la
 solicitud observada.**
 
-> Escriba aquí su respuesta.
+> La relacion entre ambas es una directa causa y efecto, la causa es la interaccion del usuario al hacer click en "Pagos en linea" se interactuo con un un elemento de la interfaz que tenia una etiqueta HTML de enlace, el navegador entendio ese click y supo que se queria cambiar de seccion, el efecto es la solicitud HTTP que automaticamente el navegador construyo y envio la solicitud que se vio en network, y ya el resultado es que se encontro el archivo correcto y se vio un estado de exito que es el 200 OK
 
 ------------------------------------------------------------------------
 
