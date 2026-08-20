@@ -99,7 +99,7 @@ Inclúyala aquí:
 **¿Por qué una sola URL puede generar múltiples solicitudes HTTP?**
 
 > Escriba aquí su respuesta.
-
+Se producen multiples solicitudes porque uno solo no descarga la pagina completa en un solo bloque, esta la primera solicitud que es cuando damos ENTER, luego esta la lectura que es cuando el HTML llega y luego estan las solicitudes adicionales que serian como para mostrar los diseños, ya por ultimo estan los recursos externos que son mas solicitudes que llevan tipografia, estilos, imagenes,etc.
 ------------------------------------------------------------------------
 
 # 3. Análisis de una solicitud HTTP
@@ -111,12 +111,12 @@ Identifique la información solicitada a continuación.
 
   Elemento              Resultado
   --------------------- -----------
-  URL                   
-  Método HTTP           
-  Código de estado      
-  Host / dominio        
-  Tipo de recurso       
-  Tiempo de respuesta   
+  URL :  https://www.itm.edu.co/formatos-institucionales/                
+  Método HTTP : GET          
+  Código de estado :200 OK    
+  Host / dominio: www.itm.edu.co        
+  Tipo de recurso: text/html       
+  Tiempo de respuesta: 2:30s   
 
 ## Flujo que se está observando
 
@@ -146,12 +146,12 @@ Inclúyala en el informe:
 
 **¿Qué recurso solicitó el navegador?**
 
-> Escriba aquí su respuesta.
+> Esta solicitando el documento HTML principal osea la estructura base de la pagina
 
 **¿Qué información permite determinar si la solicitud fue atendida
 correctamente?**
 
-> Escriba aquí su respuesta.
+> Se sabe si fue atendida correctamente con el codigo de estado que es el 200 OK
 
 ------------------------------------------------------------------------
 
