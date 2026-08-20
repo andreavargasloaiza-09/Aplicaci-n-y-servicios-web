@@ -72,13 +72,13 @@ Complete la tabla:
 
   Recurso   Tipo   Dominio     Tamaño
   --------- ------ --------- --------
-                             
-                             
-                             
-                             
+  recurso: formatos-institucionales/
+  Tipo: document                           
+  Dominio: www.itm.edu.co                           
+  Tamaño: 103KB                           
                              
 
-**Total de solicitudes observadas:** `_____`
+**Total de solicitudes observadas:** `__88__`
 
 ## Evidencia
 
