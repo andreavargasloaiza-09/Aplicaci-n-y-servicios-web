@@ -297,8 +297,17 @@ El diagrama deberá incluir, cuando corresponda:
 Reemplace el siguiente bloque con su diagrama:
 
 ``` mermaid
-flowchart LR
-    A[Construya aquí] --> B[su flujo observado]
+graph TD
+    Usuario -->|1. Hace clic en 'Pagos en Línea'| Interfaz
+    Interfaz -->|2. Captura la acción| Navegador
+    Navegador -->|3. Genera y envía| Solicitud["Solicitud HTTP (GET)"]
+    Solicitud -->|4. Viaja por la red| Servidor
+    Servidor -->|5. Procesa y devuelve| Respuesta["Respuesta HTTP (200 OK)"]
+    Respuesta -->|6. Entrega el archivo HTML| Navegador
+    Navegador -->|7. Analiza el codigo y construye| DOM
+    Navegador -.->|Carga archivos y ejecuta| JavaScript
+    JavaScript -.->|Añade interactividad al| DOM
+    DOM -->|8. Renderiza la nueva página| Interfaz
 ```
 
 ------------------------------------------------------------------------
