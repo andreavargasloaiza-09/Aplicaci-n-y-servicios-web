@@ -176,13 +176,13 @@ Utilizando **Elementos / Elements**:
 
 ## Resultados
 
-**Elemento seleccionado:** `____________________________`
+**Elemento seleccionado:** `Boton Descargar`
 
-**Etiqueta HTML:** `____________________________`
+**Etiqueta HTML:** `La etiqueta del inicio <a> significa anchor`
 
-**Contenido original:** `____________________________`
+**Contenido original:** `La palabra Descargar`
 
-**Modificación realizada:** `____________________________`
+**Modificación realizada:** `La frase: Hola mundo :D`
 
 El proceso observado puede representarse conceptualmente así:
 
@@ -214,7 +214,7 @@ Inclúyala aquí:
 aplicación o los archivos almacenados en el servidor? Justifique.**
 
 > Escriba aquí su respuesta.
-
+No porque cuando se entra a una URL, el servidor web del itm envia a nuestros navegadores una copia del archivo HTML original, el DOM es temporal y la comunicacion es unidireccional, como clientes solo tenemos los permisos para hacer solicitudes HTTP GET para leer la pagina
 ------------------------------------------------------------------------
 
 # 5. Análisis de una interacción dinámica
