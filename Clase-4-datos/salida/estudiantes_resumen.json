@@ -1,0 +1,177 @@
+[
+  {
+    "id": "20241001",
+    "nombre_completo": "Valentina Gómez",
+    "semestre": 5,
+    "promedio": 4.2,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241002",
+    "nombre_completo": "Juan Pérez",
+    "semestre": 3,
+    "promedio": 3.8,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241003",
+    "nombre_completo": "Mariana López",
+    "semestre": 2,
+    "promedio": 4.5,
+    "estado": "Inactivo"
+  },
+  {
+    "id": "20241004",
+    "nombre_completo": "Andrés Rodríguez",
+    "semestre": 6,
+    "promedio": 3.1,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241005",
+    "nombre_completo": "Sofía Martínez",
+    "semestre": 1,
+    "promedio": 4.7,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241006",
+    "nombre_completo": "Camilo Hernández",
+    "semestre": 4,
+    "promedio": 4.0,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241007",
+    "nombre_completo": "Isabella Ramírez",
+    "semestre": 3,
+    "promedio": 4.3,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241008",
+    "nombre_completo": "Santiago Torres",
+    "semestre": 7,
+    "promedio": 3.6,
+    "estado": "Inactivo"
+  },
+  {
+    "id": "20241009",
+    "nombre_completo": "Luciana Moreno",
+    "semestre": 2,
+    "promedio": 4.6,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241010",
+    "nombre_completo": "Mateo Castro",
+    "semestre": 8,
+    "promedio": 3.9,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241011",
+    "nombre_completo": "Emma Vargas",
+    "semestre": 5,
+    "promedio": 4.1,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241012",
+    "nombre_completo": "Nicolás Rojas",
+    "semestre": 6,
+    "promedio": 3.4,
+    "estado": "Inactivo"
+  },
+  {
+    "id": "20241013",
+    "nombre_completo": "Salomé Jiménez",
+    "semestre": 4,
+    "promedio": 4.4,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241014",
+    "nombre_completo": "Samuel Ortiz",
+    "semestre": 1,
+    "promedio": 3.7,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241015",
+    "nombre_completo": "Antonella Gutiérrez",
+    "semestre": 3,
+    "promedio": 4.8,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241016",
+    "nombre_completo": "Daniel Álvarez",
+    "semestre": 9,
+    "promedio": 3.5,
+    "estado": "Inactivo"
+  },
+  {
+    "id": "20241017",
+    "nombre_completo": "Manuela Ruiz",
+    "semestre": 5,
+    "promedio": 4.0,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241018",
+    "nombre_completo": "Emiliano Díaz",
+    "semestre": 2,
+    "promedio": 4.2,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241019",
+    "nombre_completo": "Gabriela Mendoza",
+    "semestre": 7,
+    "promedio": 3.9,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241020",
+    "nombre_completo": "Martín Guerrero",
+    "semestre": 6,
+    "promedio": 4.6,
+    "estado": "Inactivo"
+  },
+  {
+    "id": "20241021",
+    "nombre_completo": "Julieta Navarro",
+    "semestre": 4,
+    "promedio": 4.3,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241022",
+    "nombre_completo": "Thiago Cárdenas",
+    "semestre": 8,
+    "promedio": 3.8,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241023",
+    "nombre_completo": "Renata Molina",
+    "semestre": 2,
+    "promedio": 4.5,
+    "estado": "Activo"
+  },
+  {
+    "id": "20241024",
+    "nombre_completo": "Jerónimo Suárez",
+    "semestre": 5,
+    "promedio": 3.3,
+    "estado": "Inactivo"
+  },
+  {
+    "id": "20241025",
+    "nombre_completo": "Victoria Restrepo",
+    "semestre": 3,
+    "promedio": 4.9,
+    "estado": "Activo"
+  }
+]
