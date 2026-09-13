@@ -6,7 +6,7 @@ from endpoint import enviar_mediciones, consultar_resultados
 
 #PUNTO 7: INTEGRACIÓN HTTP
 URL_BASE = "https://appsweb.quantaiot.co"
-ID_EQUIPO = "EQUIPO-11-APPSWEB" 
+ID_EQUIPO = "EQUIPO-20-APPSWEB" 
 
 #1. FUNCIONES DE CARGA DE DATOS
 def cargar_datos():
@@ -167,7 +167,6 @@ if __name__ == "__main__":
             rechazados_localmente.append({"registro": reg, "motivo": motivo})
 
 
-if __name__ == "__main__":
     exitosos, fallidos = enviar_mediciones(registros_validos, URL_BASE, ID_EQUIPO)
     print(f"Punto 7 completado: {len(exitosos)} aceptados | {len(fallidos)} fallidos")
 
