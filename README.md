@@ -1,5 +1,11 @@
 # Taller 1 — Integración de datos entre aplicaciones
 
+## Estudiantes:
+Samuel Montoya Galeano
+Andrea Vargas Loaiza
+Grupo:EQUIPO-11-APPSWEB
+Código clase: 580202009-1
+
 ## Propósito
 
 Construir en Python un cliente integrador capaz de leer datos provenientes de distintas fuentes, adaptarlos a un contrato institucional, validarlos y comunicarse con una API mediante HTTP.

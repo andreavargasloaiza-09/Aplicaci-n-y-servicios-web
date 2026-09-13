@@ -78,13 +78,11 @@ def consultar_resultados(url_base, id_equipo):
     registradas en el servidor a nombre de nuestro equipo.
     """
     endpoint = f"{url_base.rstrip('/')}/api/v1/mediciones"
+
     
-    headers = {
-        "X-Equipo": id_equipo
-    }
     
     try:
-        response = requests.get(endpoint, headers=headers, timeout=10)
+        response = requests.get(endpoint, params={"equipo": id_equipo}, timeout=10)
         response.raise_for_status()
         
         return {
