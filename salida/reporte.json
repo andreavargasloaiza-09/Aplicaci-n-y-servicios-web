@@ -1,13 +1,3255 @@
 {
     "estadisticas": {
-        "total_registros_procesados": 0,
-        "proveedor_a_procesados": 0,
-        "proveedor_b_procesados": 0,
-        "validos_localmente": 0,
-        "rechazados_localmente": 0,
-        "exitosos_en_api": 0,
-        "fallidos_en_api": 0
+        "total_registros_procesados": 400,
+        "proveedor_a_procesados": 200,
+        "proveedor_b_procesados": 200,
+        "validos_localmente": 382,
+        "rechazados_localmente": 12,
+        "exitosos_en_api": 190,
+        "fallidos_en_api": 192
     },
-    "detalle_rechazados_localmente": [],
-    "detalle_fallios_api": []
+    "detalle_rechazados_localmente": [
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.969955,
+                "longitud": -74.762201,
+                "temperatura_c": 28.666666666666668,
+                "humedad": 108.4,
+                "viento_kmh": 10.008,
+                "fecha_hora": "2026-09-01T07:00:00-05:00",
+                "origen": "proveedor_a"
+            },
+            "motivo": "Humedad fuera de rango: 108.4"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 95.245,
+                "longitud": -74.746472,
+                "temperatura_c": 20.777777777777782,
+                "humedad": 75.3,
+                "viento_kmh": 12.852,
+                "fecha_hora": "2026-09-01T15:00:00-05:00",
+                "origen": "proveedor_a"
+            },
+            "motivo": "Latitud fuera de rango: 95.245"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.722662,
+                "longitud": -74.078919,
+                "temperatura_c": 23.833333333333336,
+                "humedad": 64.1,
+                "viento_kmh": -8.64,
+                "fecha_hora": "2026-09-02T19:30:00-05:00",
+                "origen": "proveedor_a"
+            },
+            "motivo": "Viento negativo: -8.64"
+        },
+        {
+            "registro": {
+                "ciudad": "",
+                "pais": "CO",
+                "latitud": 4.714573,
+                "longitud": -74.076243,
+                "temperatura_c": 20.833333333333332,
+                "humedad": 62.1,
+                "viento_kmh": 5.364,
+                "fecha_hora": "2026-09-03T19:30:00-05:00",
+                "origen": "proveedor_a"
+            },
+            "motivo": "Ciudad o país vacíos"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "",
+                "latitud": 3.441358,
+                "longitud": -76.505532,
+                "temperatura_c": 18.055555555555557,
+                "humedad": 63.9,
+                "viento_kmh": 14.22,
+                "fecha_hora": "2026-09-04T02:30:00-05:00",
+                "origen": "proveedor_a"
+            },
+            "motivo": "Ciudad o país vacíos"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.475479,
+                "longitud": -190.75,
+                "temperatura_c": 23.166666666666668,
+                "humedad": 91.3,
+                "viento_kmh": 16.740000000000002,
+                "fecha_hora": "2026-09-04T15:00:00-05:00",
+                "origen": "proveedor_a"
+            },
+            "motivo": "Longitud fuera de rango: -190.75"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.258034,
+                "longitud": -75.54765,
+                "temperatura_c": 21.1,
+                "humedad": 117.5,
+                "viento_kmh": 25.37,
+                "fecha_hora": "2026-09-01T08:15:00",
+                "origen": "proveedor_b"
+            },
+            "motivo": "Humedad fuera de rango: 117.5"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": -94.22,
+                "longitud": -76.492907,
+                "temperatura_c": 18.11,
+                "humedad": 62.0,
+                "viento_kmh": 21.68,
+                "fecha_hora": "2026-09-01T09:45:00",
+                "origen": "proveedor_b"
+            },
+            "motivo": "Latitud fuera de rango: -94.22"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.729888,
+                "longitud": -74.069887,
+                "temperatura_c": 23.61,
+                "humedad": 63.2,
+                "viento_kmh": -7.4,
+                "fecha_hora": "2026-09-04T19:30:00",
+                "origen": "proveedor_b"
+            },
+            "motivo": "Viento negativo: -7.4"
+        },
+        {
+            "registro": {
+                "ciudad": "",
+                "pais": "CO",
+                "latitud": 10.956283,
+                "longitud": -74.799257,
+                "temperatura_c": 19.97,
+                "humedad": 88.5,
+                "viento_kmh": 11.32,
+                "fecha_hora": "2026-09-05T05:15:00",
+                "origen": "proveedor_b"
+            },
+            "motivo": "Ciudad o país vacíos"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "",
+                "latitud": 10.429149,
+                "longitud": -75.47476,
+                "temperatura_c": 21.41,
+                "humedad": 64.8,
+                "viento_kmh": 13.44,
+                "fecha_hora": "2026-09-05T10:30:00",
+                "origen": "proveedor_b"
+            },
+            "motivo": "Ciudad o país vacíos"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.462974,
+                "longitud": 188.45,
+                "temperatura_c": 23.16,
+                "humedad": 69.7,
+                "viento_kmh": 13.86,
+                "fecha_hora": "2026-09-07T03:45:00",
+                "origen": "proveedor_b"
+            },
+            "motivo": "Longitud fuera de rango: 188.45"
+        }
+    ],
+    "detalle_fallos_api": [
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.986571,
+                "longitud": -74.809991,
+                "temperatura_c": 19.333333333333332,
+                "humedad": 76.6,
+                "viento_kmh": 11.124,
+                "fecha_hora": "",
+                "origen": "proveedor_a"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe ser una fecha-hora ISO 8601 válida\",\"input\":\"\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.400687,
+                "longitud": -75.475134,
+                "temperatura_c": 27.722222222222225,
+                "humedad": 66.9,
+                "viento_kmh": 26.424,
+                "fecha_hora": "09-XX-2026 25:61",
+                "origen": "proveedor_a"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe ser una fecha-hora ISO 8601 válida\",\"input\":\"09-XX-2026 25:61\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.26152,
+                "longitud": -75.575842,
+                "temperatura_c": 21.55,
+                "humedad": 50.7,
+                "viento_kmh": 21.85,
+                "fecha_hora": "2026-09-01T06:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T06:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.259724,
+                "longitud": -75.557835,
+                "temperatura_c": 19.28,
+                "humedad": 51.9,
+                "viento_kmh": 4.57,
+                "fecha_hora": "2026-09-01T06:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T06:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.458315,
+                "longitud": -76.521803,
+                "temperatura_c": 25.24,
+                "humedad": 89.2,
+                "viento_kmh": 15.84,
+                "fecha_hora": "2026-09-01T07:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T07:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.412852,
+                "longitud": -75.496984,
+                "temperatura_c": 25.08,
+                "humedad": 75.1,
+                "viento_kmh": 14.48,
+                "fecha_hora": "2026-09-01T09:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T09:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.690298,
+                "longitud": -74.070083,
+                "temperatura_c": 20.14,
+                "humedad": 45.4,
+                "viento_kmh": 26.59,
+                "fecha_hora": "2026-09-01T10:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T10:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.421381,
+                "longitud": -75.454667,
+                "temperatura_c": 27.48,
+                "humedad": 74.2,
+                "viento_kmh": 28.33,
+                "fecha_hora": "2026-09-01T11:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T11:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.472458,
+                "longitud": -76.530765,
+                "temperatura_c": 18.43,
+                "humedad": 85.6,
+                "viento_kmh": 24.99,
+                "fecha_hora": "2026-09-01T12:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T12:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.376243,
+                "longitud": -75.509787,
+                "temperatura_c": 25.44,
+                "humedad": 82.9,
+                "viento_kmh": 29.48,
+                "fecha_hora": "2026-09-01T12:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T12:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.951596,
+                "longitud": -74.806388,
+                "temperatura_c": 25.32,
+                "humedad": 69.7,
+                "viento_kmh": 7.54,
+                "fecha_hora": "2026-09-01T13:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T13:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.674047,
+                "longitud": -74.092287,
+                "temperatura_c": 28.35,
+                "humedad": 78.9,
+                "viento_kmh": 9.4,
+                "fecha_hora": "2026-09-01T14:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T14:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.488564,
+                "longitud": -76.513279,
+                "temperatura_c": 18.93,
+                "humedad": 67.8,
+                "viento_kmh": 23.99,
+                "fecha_hora": "2026-09-01T15:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T15:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.452647,
+                "longitud": -76.53049,
+                "temperatura_c": 31.18,
+                "humedad": 50.6,
+                "viento_kmh": 2.35,
+                "fecha_hora": "2026-09-01T15:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T15:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.35485,
+                "longitud": -75.467627,
+                "temperatura_c": 29.76,
+                "humedad": 47.6,
+                "viento_kmh": 20.89,
+                "fecha_hora": "2026-09-01T16:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T16:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.679679,
+                "longitud": -74.09252,
+                "temperatura_c": 21.12,
+                "humedad": 90.0,
+                "viento_kmh": 15.73,
+                "fecha_hora": "2026-09-01T17:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T17:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.379516,
+                "longitud": -75.457326,
+                "temperatura_c": 26.73,
+                "humedad": 53.7,
+                "viento_kmh": 8.02,
+                "fecha_hora": "2026-09-01T18:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T18:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.442151,
+                "longitud": -76.557282,
+                "temperatura_c": 29.67,
+                "humedad": 64.0,
+                "viento_kmh": 23.7,
+                "fecha_hora": "2026-09-01T18:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T18:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.242308,
+                "longitud": -75.616129,
+                "temperatura_c": 31.27,
+                "humedad": 58.7,
+                "viento_kmh": 1.75,
+                "fecha_hora": "2026-09-01T19:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T19:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.693355,
+                "longitud": -74.051886,
+                "temperatura_c": 25.9,
+                "humedad": 53.9,
+                "viento_kmh": 14.69,
+                "fecha_hora": "2026-09-01T20:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T20:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.488809,
+                "longitud": -76.565727,
+                "temperatura_c": 23.14,
+                "humedad": 87.1,
+                "viento_kmh": 26.68,
+                "fecha_hora": "2026-09-01T21:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T21:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.482259,
+                "longitud": -76.571806,
+                "temperatura_c": 22.19,
+                "humedad": 93.2,
+                "viento_kmh": 4.27,
+                "fecha_hora": "2026-09-01T21:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T21:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.681228,
+                "longitud": -74.097719,
+                "temperatura_c": 22.45,
+                "humedad": 83.2,
+                "viento_kmh": 0.51,
+                "fecha_hora": "2026-09-01T22:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T22:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.228517,
+                "longitud": -75.612433,
+                "temperatura_c": 19.78,
+                "humedad": 46.4,
+                "viento_kmh": 14.95,
+                "fecha_hora": "2026-09-01T23:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-01T23:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.488253,
+                "longitud": -76.493286,
+                "temperatura_c": 27.08,
+                "humedad": 55.1,
+                "viento_kmh": 4.83,
+                "fecha_hora": "2026-09-02T00:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T00:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.477995,
+                "longitud": -76.504018,
+                "temperatura_c": 18.75,
+                "humedad": 87.7,
+                "viento_kmh": 16.11,
+                "fecha_hora": "2026-09-02T00:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T00:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.940341,
+                "longitud": -74.809584,
+                "temperatura_c": 28.43,
+                "humedad": 81.7,
+                "viento_kmh": 31.62,
+                "fecha_hora": "2026-09-02T01:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T01:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.956573,
+                "longitud": -74.759346,
+                "temperatura_c": 23.14,
+                "humedad": 58.3,
+                "viento_kmh": 21.95,
+                "fecha_hora": "2026-09-02T02:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T02:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.719313,
+                "longitud": -74.086761,
+                "temperatura_c": 21.71,
+                "humedad": 59.4,
+                "viento_kmh": 21.17,
+                "fecha_hora": "2026-09-02T03:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T03:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.424935,
+                "longitud": -75.489028,
+                "temperatura_c": 26.19,
+                "humedad": 88.2,
+                "viento_kmh": 22.48,
+                "fecha_hora": "2026-09-02T03:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T03:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.721534,
+                "longitud": -74.077765,
+                "temperatura_c": 31.08,
+                "humedad": 45.0,
+                "viento_kmh": 29.66,
+                "fecha_hora": "2026-09-02T04:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T04:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.222528,
+                "longitud": -75.549693,
+                "temperatura_c": 20.31,
+                "humedad": 89.1,
+                "viento_kmh": 8.85,
+                "fecha_hora": "2026-09-02T05:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T05:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.947497,
+                "longitud": -74.75954,
+                "temperatura_c": 29.73,
+                "humedad": 42.3,
+                "viento_kmh": 23.54,
+                "fecha_hora": "2026-09-02T06:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T06:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.361387,
+                "longitud": -75.442976,
+                "temperatura_c": 23.73,
+                "humedad": 83.7,
+                "viento_kmh": 27.38,
+                "fecha_hora": "2026-09-02T06:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T06:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.454469,
+                "longitud": -76.516535,
+                "temperatura_c": 21.86,
+                "humedad": 57.3,
+                "viento_kmh": 23.91,
+                "fecha_hora": "2026-09-02T07:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T07:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.423571,
+                "longitud": -75.505666,
+                "temperatura_c": 20.02,
+                "humedad": 44.2,
+                "viento_kmh": 3.4,
+                "fecha_hora": "2026-09-02T08:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T08:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.673981,
+                "longitud": -74.097229,
+                "temperatura_c": 30.2,
+                "humedad": 59.5,
+                "viento_kmh": 0.73,
+                "fecha_hora": "2026-09-02T09:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T09:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.960523,
+                "longitud": -74.786322,
+                "temperatura_c": 19.43,
+                "humedad": 62.2,
+                "viento_kmh": 13.37,
+                "fecha_hora": "2026-09-02T09:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T09:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.207784,
+                "longitud": -75.615662,
+                "temperatura_c": 18.62,
+                "humedad": 54.0,
+                "viento_kmh": 25.23,
+                "fecha_hora": "2026-09-02T10:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T10:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.691596,
+                "longitud": -74.07901,
+                "temperatura_c": 18.96,
+                "humedad": 55.6,
+                "viento_kmh": 26.04,
+                "fecha_hora": "2026-09-02T11:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T11:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.999006,
+                "longitud": -74.792132,
+                "temperatura_c": 29.78,
+                "humedad": 79.6,
+                "viento_kmh": 3.22,
+                "fecha_hora": "2026-09-02T12:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T12:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.239076,
+                "longitud": -75.608673,
+                "temperatura_c": 31.81,
+                "humedad": 78.4,
+                "viento_kmh": 31.21,
+                "fecha_hora": "2026-09-02T12:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T12:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.420711,
+                "longitud": -75.510223,
+                "temperatura_c": 22.24,
+                "humedad": 91.0,
+                "viento_kmh": 29.89,
+                "fecha_hora": "2026-09-02T13:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T13:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.227467,
+                "longitud": -75.579035,
+                "temperatura_c": 31.42,
+                "humedad": 47.8,
+                "viento_kmh": 15.74,
+                "fecha_hora": "2026-09-02T14:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T14:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.734584,
+                "longitud": -74.097056,
+                "temperatura_c": 25.37,
+                "humedad": 79.4,
+                "viento_kmh": 12.33,
+                "fecha_hora": "2026-09-02T15:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T15:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.421468,
+                "longitud": -76.55046,
+                "temperatura_c": 31.36,
+                "humedad": 45.5,
+                "viento_kmh": 26.82,
+                "fecha_hora": "2026-09-02T15:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T15:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.388934,
+                "longitud": -75.463085,
+                "temperatura_c": 20.16,
+                "humedad": 67.1,
+                "viento_kmh": 1.08,
+                "fecha_hora": "2026-09-02T16:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T16:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.399067,
+                "longitud": -75.457313,
+                "temperatura_c": 28.66,
+                "humedad": 94.5,
+                "viento_kmh": 8.72,
+                "fecha_hora": "2026-09-02T17:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T17:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.718569,
+                "longitud": -74.034616,
+                "temperatura_c": 27.06,
+                "humedad": 49.8,
+                "viento_kmh": 14.84,
+                "fecha_hora": "2026-09-02T18:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T18:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.266918,
+                "longitud": -75.56401,
+                "temperatura_c": 31.15,
+                "humedad": 67.9,
+                "viento_kmh": 2.2,
+                "fecha_hora": "2026-09-02T18:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T18:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.735736,
+                "longitud": -74.093363,
+                "temperatura_c": 26.47,
+                "humedad": 49.7,
+                "viento_kmh": 23.33,
+                "fecha_hora": "2026-09-02T19:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T19:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.420277,
+                "longitud": -76.521675,
+                "temperatura_c": 31.6,
+                "humedad": 47.7,
+                "viento_kmh": 3.29,
+                "fecha_hora": "2026-09-02T20:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T20:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.672571,
+                "longitud": -74.081241,
+                "temperatura_c": 24.56,
+                "humedad": 47.9,
+                "viento_kmh": 16.63,
+                "fecha_hora": "2026-09-02T21:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T21:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.705054,
+                "longitud": -74.033523,
+                "temperatura_c": 31.94,
+                "humedad": 47.5,
+                "viento_kmh": 26.46,
+                "fecha_hora": "2026-09-02T21:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T21:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.452124,
+                "longitud": -76.518662,
+                "temperatura_c": 22.17,
+                "humedad": 72.6,
+                "viento_kmh": 8.44,
+                "fecha_hora": "2026-09-02T22:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T22:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.978272,
+                "longitud": -74.761475,
+                "temperatura_c": 20.83,
+                "humedad": 75.6,
+                "viento_kmh": 1.26,
+                "fecha_hora": "2026-09-02T23:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-02T23:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.681792,
+                "longitud": -74.053121,
+                "temperatura_c": 24.37,
+                "humedad": 44.3,
+                "viento_kmh": 13.92,
+                "fecha_hora": "2026-09-03T00:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T00:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.396174,
+                "longitud": -75.463645,
+                "temperatura_c": 23.81,
+                "humedad": 66.3,
+                "viento_kmh": 20.75,
+                "fecha_hora": "2026-09-03T00:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T00:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.458873,
+                "longitud": -76.49378,
+                "temperatura_c": 25.79,
+                "humedad": 45.5,
+                "viento_kmh": 30.66,
+                "fecha_hora": "2026-09-03T01:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T01:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.386527,
+                "longitud": -75.496452,
+                "temperatura_c": 24.01,
+                "humedad": 76.6,
+                "viento_kmh": 12.44,
+                "fecha_hora": "2026-09-03T02:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T02:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.37373,
+                "longitud": -75.495786,
+                "temperatura_c": 20.13,
+                "humedad": 66.2,
+                "viento_kmh": 28.97,
+                "fecha_hora": "2026-09-03T03:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T03:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.978277,
+                "longitud": -74.814243,
+                "temperatura_c": 25.75,
+                "humedad": 94.4,
+                "viento_kmh": 16.01,
+                "fecha_hora": "2026-09-03T03:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T03:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 11.007346,
+                "longitud": -74.811908,
+                "temperatura_c": 28.42,
+                "humedad": 65.9,
+                "viento_kmh": 23.43,
+                "fecha_hora": "2026-09-03T04:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T04:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 11.000289,
+                "longitud": -74.774173,
+                "temperatura_c": 29.04,
+                "humedad": 73.5,
+                "viento_kmh": 27.08,
+                "fecha_hora": "2026-09-03T05:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T05:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.482316,
+                "longitud": -76.540919,
+                "temperatura_c": 29.27,
+                "humedad": 68.0,
+                "viento_kmh": 13.99,
+                "fecha_hora": "2026-09-03T06:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T06:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.484708,
+                "longitud": -76.566525,
+                "temperatura_c": 22.93,
+                "humedad": 56.1,
+                "viento_kmh": 19.38,
+                "fecha_hora": "2026-09-03T06:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T06:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.694926,
+                "longitud": -74.040328,
+                "temperatura_c": 30.22,
+                "humedad": 71.2,
+                "viento_kmh": 21.41,
+                "fecha_hora": "2026-09-03T07:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T07:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.997748,
+                "longitud": -74.788329,
+                "temperatura_c": 21.35,
+                "humedad": 80.4,
+                "viento_kmh": 20.08,
+                "fecha_hora": "2026-09-03T08:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T08:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.280965,
+                "longitud": -75.603215,
+                "temperatura_c": 19.72,
+                "humedad": 89.6,
+                "viento_kmh": 4.01,
+                "fecha_hora": "2026-09-03T09:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T09:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.416115,
+                "longitud": -75.445972,
+                "temperatura_c": 26.28,
+                "humedad": 45.7,
+                "viento_kmh": 31.29,
+                "fecha_hora": "2026-09-03T09:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T09:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.254774,
+                "longitud": -75.548473,
+                "temperatura_c": 24.24,
+                "humedad": 67.0,
+                "viento_kmh": 5.04,
+                "fecha_hora": "2026-09-03T10:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T10:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.977262,
+                "longitud": -74.764143,
+                "temperatura_c": 28.82,
+                "humedad": 56.5,
+                "viento_kmh": 24.52,
+                "fecha_hora": "2026-09-03T11:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T11:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.695098,
+                "longitud": -74.07869,
+                "temperatura_c": 28.16,
+                "humedad": 58.8,
+                "viento_kmh": 19.89,
+                "fecha_hora": "2026-09-03T12:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T12:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.225608,
+                "longitud": -75.59648,
+                "temperatura_c": 24.04,
+                "humedad": 50.1,
+                "viento_kmh": 13.22,
+                "fecha_hora": "2026-09-03T12:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T12:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.44217,
+                "longitud": -76.497452,
+                "temperatura_c": 30.79,
+                "humedad": 69.4,
+                "viento_kmh": 22.01,
+                "fecha_hora": "2026-09-03T13:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T13:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.242631,
+                "longitud": -75.61063,
+                "temperatura_c": 26.7,
+                "humedad": 91.2,
+                "viento_kmh": 31.09,
+                "fecha_hora": "2026-09-03T15:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T15:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.2253,
+                "longitud": -75.598024,
+                "temperatura_c": 18.95,
+                "humedad": 74.2,
+                "viento_kmh": 23.74,
+                "fecha_hora": "2026-09-03T15:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T15:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.364258,
+                "longitud": -75.481376,
+                "temperatura_c": 29.65,
+                "humedad": 48.0,
+                "viento_kmh": 13.18,
+                "fecha_hora": "2026-09-03T16:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T16:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.399609,
+                "longitud": -75.483386,
+                "temperatura_c": 20.33,
+                "humedad": 88.7,
+                "viento_kmh": 18.32,
+                "fecha_hora": "2026-09-03T17:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T17:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.25469,
+                "longitud": -75.604991,
+                "temperatura_c": 18.02,
+                "humedad": 52.0,
+                "viento_kmh": 14.1,
+                "fecha_hora": "2026-09-03T18:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T18:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.248689,
+                "longitud": -75.571594,
+                "temperatura_c": 29.66,
+                "humedad": 69.8,
+                "viento_kmh": 5.5,
+                "fecha_hora": "2026-09-03T18:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T18:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.982599,
+                "longitud": -74.808582,
+                "temperatura_c": 23.04,
+                "humedad": 67.7,
+                "viento_kmh": 4.81,
+                "fecha_hora": "2026-09-03T19:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T19:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.279666,
+                "longitud": -75.559892,
+                "temperatura_c": 23.99,
+                "humedad": 48.0,
+                "viento_kmh": 15.2,
+                "fecha_hora": "2026-09-03T20:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T20:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.683692,
+                "longitud": -74.049299,
+                "temperatura_c": 21.73,
+                "humedad": 67.3,
+                "viento_kmh": 21.05,
+                "fecha_hora": "2026-09-03T21:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T21:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.448502,
+                "longitud": -76.524475,
+                "temperatura_c": 23.61,
+                "humedad": 86.4,
+                "viento_kmh": 23.47,
+                "fecha_hora": "2026-09-03T21:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T21:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.215959,
+                "longitud": -75.542297,
+                "temperatura_c": 30.26,
+                "humedad": 59.0,
+                "viento_kmh": 21.53,
+                "fecha_hora": "2026-09-03T22:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T22:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.745321,
+                "longitud": -74.079819,
+                "temperatura_c": 25.25,
+                "humedad": 83.0,
+                "viento_kmh": 28.1,
+                "fecha_hora": "2026-09-03T23:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-03T23:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.9675,
+                "longitud": -74.804884,
+                "temperatura_c": 30.09,
+                "humedad": 51.4,
+                "viento_kmh": 21.92,
+                "fecha_hora": "2026-09-04T00:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T00:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.984349,
+                "longitud": -74.762558,
+                "temperatura_c": 30.44,
+                "humedad": 61.1,
+                "viento_kmh": 4.66,
+                "fecha_hora": "2026-09-04T00:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T00:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.41752,
+                "longitud": -76.541574,
+                "temperatura_c": 29.34,
+                "humedad": 51.5,
+                "viento_kmh": 19.04,
+                "fecha_hora": "2026-09-04T01:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T01:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.727319,
+                "longitud": -74.068923,
+                "temperatura_c": 30.93,
+                "humedad": 60.4,
+                "viento_kmh": 3.83,
+                "fecha_hora": "2026-09-04T02:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T02:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.247925,
+                "longitud": -75.595877,
+                "temperatura_c": 29.28,
+                "humedad": 54.1,
+                "viento_kmh": 17.09,
+                "fecha_hora": "2026-09-04T03:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T03:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.949548,
+                "longitud": -74.76196,
+                "temperatura_c": 21.93,
+                "humedad": 59.5,
+                "viento_kmh": 23.32,
+                "fecha_hora": "2026-09-04T03:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T03:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.239856,
+                "longitud": -75.582026,
+                "temperatura_c": 27.9,
+                "humedad": 57.0,
+                "viento_kmh": 21.29,
+                "fecha_hora": "2026-09-04T04:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T04:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.351098,
+                "longitud": -75.481555,
+                "temperatura_c": 22.84,
+                "humedad": 56.5,
+                "viento_kmh": 11.42,
+                "fecha_hora": "2026-09-04T05:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T05:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.358681,
+                "longitud": -75.49346,
+                "temperatura_c": 21.78,
+                "humedad": 60.6,
+                "viento_kmh": 1.18,
+                "fecha_hora": "2026-09-04T06:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T06:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.387985,
+                "longitud": -75.496282,
+                "temperatura_c": 18.9,
+                "humedad": 91.4,
+                "viento_kmh": 4.57,
+                "fecha_hora": "2026-09-04T06:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T06:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.449948,
+                "longitud": -76.533251,
+                "temperatura_c": 30.84,
+                "humedad": 76.8,
+                "viento_kmh": 12.27,
+                "fecha_hora": "2026-09-04T07:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T07:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.242826,
+                "longitud": -75.604707,
+                "temperatura_c": 27.57,
+                "humedad": 79.7,
+                "viento_kmh": 7.96,
+                "fecha_hora": "2026-09-04T08:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T08:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.940769,
+                "longitud": -74.81521,
+                "temperatura_c": 18.2,
+                "humedad": 59.5,
+                "viento_kmh": 16.37,
+                "fecha_hora": "2026-09-04T09:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T09:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.430216,
+                "longitud": -76.508405,
+                "temperatura_c": 22.85,
+                "humedad": 61.8,
+                "viento_kmh": 21.59,
+                "fecha_hora": "2026-09-04T09:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T09:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.686344,
+                "longitud": -74.09747,
+                "temperatura_c": 20.63,
+                "humedad": 50.9,
+                "viento_kmh": 25.64,
+                "fecha_hora": "2026-09-04T10:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T10:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.707056,
+                "longitud": -74.095763,
+                "temperatura_c": 19.31,
+                "humedad": 61.9,
+                "viento_kmh": 26.31,
+                "fecha_hora": "2026-09-04T11:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T11:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.281217,
+                "longitud": -75.56871,
+                "temperatura_c": 31.72,
+                "humedad": 63.9,
+                "viento_kmh": 11.24,
+                "fecha_hora": "2026-09-04T12:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T12:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.278569,
+                "longitud": -75.576891,
+                "temperatura_c": 22.78,
+                "humedad": 70.0,
+                "viento_kmh": 29.71,
+                "fecha_hora": "2026-09-04T12:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T12:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.380324,
+                "longitud": -75.506046,
+                "temperatura_c": 19.53,
+                "humedad": 44.3,
+                "viento_kmh": 10.9,
+                "fecha_hora": "2026-09-04T13:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T13:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.262534,
+                "longitud": -75.546718,
+                "temperatura_c": 23.2,
+                "humedad": 45.9,
+                "viento_kmh": 31.49,
+                "fecha_hora": "2026-09-04T14:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T14:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.992017,
+                "longitud": -74.763356,
+                "temperatura_c": 18.26,
+                "humedad": 80.4,
+                "viento_kmh": 24.39,
+                "fecha_hora": "2026-09-04T15:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T15:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.379532,
+                "longitud": -75.451023,
+                "temperatura_c": 18.15,
+                "humedad": 46.9,
+                "viento_kmh": 17.72,
+                "fecha_hora": "2026-09-04T15:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T15:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.413053,
+                "longitud": -75.506164,
+                "temperatura_c": 28.18,
+                "humedad": 48.2,
+                "viento_kmh": 25.39,
+                "fecha_hora": "2026-09-04T16:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T16:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.383222,
+                "longitud": -75.469265,
+                "temperatura_c": 25.0,
+                "humedad": 90.5,
+                "viento_kmh": 11.39,
+                "fecha_hora": "2026-09-04T17:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T17:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.398157,
+                "longitud": -75.507689,
+                "temperatura_c": 18.28,
+                "humedad": 69.2,
+                "viento_kmh": 21.09,
+                "fecha_hora": "2026-09-04T18:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T18:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.376653,
+                "longitud": -75.502311,
+                "temperatura_c": 21.25,
+                "humedad": 92.1,
+                "viento_kmh": 13.96,
+                "fecha_hora": "2026-09-04T20:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T20:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.469638,
+                "longitud": -76.560249,
+                "temperatura_c": 21.51,
+                "humedad": 94.4,
+                "viento_kmh": 9.4,
+                "fecha_hora": "2026-09-04T21:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T21:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.231676,
+                "longitud": -75.551061,
+                "temperatura_c": 30.84,
+                "humedad": 50.2,
+                "viento_kmh": 2.17,
+                "fecha_hora": "2026-09-04T21:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T21:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.729774,
+                "longitud": -74.08959,
+                "temperatura_c": 19.93,
+                "humedad": 46.3,
+                "viento_kmh": 15.85,
+                "fecha_hora": "2026-09-04T22:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T22:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.241158,
+                "longitud": -75.59796,
+                "temperatura_c": 30.28,
+                "humedad": 86.2,
+                "viento_kmh": 20.89,
+                "fecha_hora": "2026-09-04T23:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-04T23:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.710435,
+                "longitud": -74.086685,
+                "temperatura_c": 24.34,
+                "humedad": 42.3,
+                "viento_kmh": 18.19,
+                "fecha_hora": "2026-09-05T00:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T00:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.706045,
+                "longitud": -74.055649,
+                "temperatura_c": 22.25,
+                "humedad": 94.3,
+                "viento_kmh": 10.23,
+                "fecha_hora": "2026-09-05T00:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T00:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.674518,
+                "longitud": -74.061249,
+                "temperatura_c": 19.21,
+                "humedad": 84.9,
+                "viento_kmh": 16.82,
+                "fecha_hora": "2026-09-05T01:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T01:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.420113,
+                "longitud": -76.534695,
+                "temperatura_c": 24.28,
+                "humedad": 56.0,
+                "viento_kmh": 24.51,
+                "fecha_hora": "2026-09-05T02:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T02:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.278292,
+                "longitud": -75.545228,
+                "temperatura_c": 22.07,
+                "humedad": 43.8,
+                "viento_kmh": 6.54,
+                "fecha_hora": "2026-09-05T03:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T03:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.677142,
+                "longitud": -74.039806,
+                "temperatura_c": 25.36,
+                "humedad": 89.8,
+                "viento_kmh": 25.83,
+                "fecha_hora": "2026-09-05T03:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T03:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.409409,
+                "longitud": -75.457889,
+                "temperatura_c": 19.95,
+                "humedad": 70.7,
+                "viento_kmh": 27.53,
+                "fecha_hora": "2026-09-05T04:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T04:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.230733,
+                "longitud": -75.586061,
+                "temperatura_c": 18.94,
+                "humedad": 55.0,
+                "viento_kmh": 6.14,
+                "fecha_hora": "2026-09-05T06:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T06:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.270455,
+                "longitud": -75.547733,
+                "temperatura_c": 28.61,
+                "humedad": 66.6,
+                "viento_kmh": 23.09,
+                "fecha_hora": "2026-09-05T06:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T06:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.391717,
+                "longitud": -75.510024,
+                "temperatura_c": 21.75,
+                "humedad": 66.0,
+                "viento_kmh": 18.42,
+                "fecha_hora": "2026-09-05T07:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T07:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.73056,
+                "longitud": -74.077727,
+                "temperatura_c": 21.91,
+                "humedad": 51.1,
+                "viento_kmh": 9.95,
+                "fecha_hora": "2026-09-05T08:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T08:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.215123,
+                "longitud": -75.571336,
+                "temperatura_c": 18.68,
+                "humedad": 88.5,
+                "viento_kmh": 29.32,
+                "fecha_hora": "2026-09-05T09:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T09:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.456456,
+                "longitud": -76.560639,
+                "temperatura_c": 19.98,
+                "humedad": 59.3,
+                "viento_kmh": 23.1,
+                "fecha_hora": "2026-09-05T09:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T09:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.932311,
+                "longitud": -74.766301,
+                "temperatura_c": 27.81,
+                "humedad": 67.2,
+                "viento_kmh": 26.35,
+                "fecha_hora": "2026-09-05T11:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T11:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.449799,
+                "longitud": -76.550635,
+                "temperatura_c": 31.78,
+                "humedad": 42.1,
+                "viento_kmh": 17.99,
+                "fecha_hora": "2026-09-05T12:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T12:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.209846,
+                "longitud": -75.617255,
+                "temperatura_c": 19.76,
+                "humedad": 85.7,
+                "viento_kmh": 13.17,
+                "fecha_hora": "2026-09-05T12:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T12:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.963644,
+                "longitud": -74.765649,
+                "temperatura_c": 19.98,
+                "humedad": 44.8,
+                "viento_kmh": 21.22,
+                "fecha_hora": "2026-09-05T13:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T13:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.462843,
+                "longitud": -76.53612,
+                "temperatura_c": 18.33,
+                "humedad": 90.9,
+                "viento_kmh": 9.7,
+                "fecha_hora": "2026-09-05T14:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T14:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.690726,
+                "longitud": -74.046457,
+                "temperatura_c": 23.89,
+                "humedad": 43.1,
+                "viento_kmh": 11.23,
+                "fecha_hora": "2026-09-05T15:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T15:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.953856,
+                "longitud": -74.804758,
+                "temperatura_c": 30.08,
+                "humedad": 56.9,
+                "viento_kmh": 30.71,
+                "fecha_hora": "2026-09-05T15:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T15:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.710087,
+                "longitud": -74.055196,
+                "temperatura_c": 23.19,
+                "humedad": 70.8,
+                "viento_kmh": 11.34,
+                "fecha_hora": "2026-09-05T16:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T16:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.968612,
+                "longitud": -74.812369,
+                "temperatura_c": 24.44,
+                "humedad": 94.1,
+                "viento_kmh": 10.28,
+                "fecha_hora": "2026-09-05T17:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T17:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.41142,
+                "longitud": -75.484945,
+                "temperatura_c": 18.42,
+                "humedad": 55.8,
+                "viento_kmh": 14.21,
+                "fecha_hora": "2026-09-05T18:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T18:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.215223,
+                "longitud": -75.595145,
+                "temperatura_c": 21.52,
+                "humedad": 90.4,
+                "viento_kmh": 22.55,
+                "fecha_hora": "2026-09-05T19:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T19:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.229047,
+                "longitud": -75.582356,
+                "temperatura_c": 25.39,
+                "humedad": 50.4,
+                "viento_kmh": 0.52,
+                "fecha_hora": "2026-09-05T20:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T20:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.42224,
+                "longitud": -75.440834,
+                "temperatura_c": 22.46,
+                "humedad": 91.2,
+                "viento_kmh": 2.73,
+                "fecha_hora": "2026-09-05T21:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T21:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.257784,
+                "longitud": -75.579989,
+                "temperatura_c": 27.1,
+                "humedad": 91.5,
+                "viento_kmh": 14.55,
+                "fecha_hora": "2026-09-05T21:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T21:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.735771,
+                "longitud": -74.077543,
+                "temperatura_c": 20.33,
+                "humedad": 63.4,
+                "viento_kmh": 13.02,
+                "fecha_hora": "2026-09-05T22:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T22:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.691968,
+                "longitud": -74.048414,
+                "temperatura_c": 26.41,
+                "humedad": 58.8,
+                "viento_kmh": 21.55,
+                "fecha_hora": "2026-09-05T23:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-05T23:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.244615,
+                "longitud": -75.598684,
+                "temperatura_c": 18.37,
+                "humedad": 59.5,
+                "viento_kmh": 24.35,
+                "fecha_hora": "2026-09-06T00:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T00:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.440118,
+                "longitud": -76.508316,
+                "temperatura_c": 24.53,
+                "humedad": 64.4,
+                "viento_kmh": 24.53,
+                "fecha_hora": "2026-09-06T00:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T00:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.442221,
+                "longitud": -76.559813,
+                "temperatura_c": 28.46,
+                "humedad": 61.3,
+                "viento_kmh": 20.87,
+                "fecha_hora": "2026-09-06T01:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T01:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.970824,
+                "longitud": -74.747023,
+                "temperatura_c": 25.91,
+                "humedad": 50.0,
+                "viento_kmh": 6.99,
+                "fecha_hora": "2026-09-06T02:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T02:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.261739,
+                "longitud": -75.565849,
+                "temperatura_c": 28.41,
+                "humedad": 52.9,
+                "viento_kmh": 29.88,
+                "fecha_hora": "2026-09-06T03:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T03:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.485787,
+                "longitud": -76.514119,
+                "temperatura_c": 19.33,
+                "humedad": 61.9,
+                "viento_kmh": 17.56,
+                "fecha_hora": "2026-09-06T03:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T03:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.432827,
+                "longitud": -76.567812,
+                "temperatura_c": 29.18,
+                "humedad": 93.0,
+                "viento_kmh": 14.58,
+                "fecha_hora": "2026-09-06T04:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T04:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.726063,
+                "longitud": -74.0623,
+                "temperatura_c": 22.92,
+                "humedad": 48.0,
+                "viento_kmh": 9.11,
+                "fecha_hora": "2026-09-06T05:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T05:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.412324,
+                "longitud": -76.565083,
+                "temperatura_c": 21.28,
+                "humedad": 90.1,
+                "viento_kmh": 25.85,
+                "fecha_hora": "2026-09-06T06:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T06:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.958792,
+                "longitud": -74.781611,
+                "temperatura_c": 27.15,
+                "humedad": 78.5,
+                "viento_kmh": 24.53,
+                "fecha_hora": "2026-09-06T06:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T06:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.269748,
+                "longitud": -75.556121,
+                "temperatura_c": 18.1,
+                "humedad": 62.8,
+                "viento_kmh": 15.92,
+                "fecha_hora": "2026-09-06T07:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T07:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.244122,
+                "longitud": -75.595315,
+                "temperatura_c": 21.79,
+                "humedad": 50.6,
+                "viento_kmh": 30.83,
+                "fecha_hora": "2026-09-06T08:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T08:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.488147,
+                "longitud": -76.571014,
+                "temperatura_c": 25.62,
+                "humedad": 79.8,
+                "viento_kmh": 23.02,
+                "fecha_hora": "2026-09-06T09:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T09:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.958799,
+                "longitud": -74.759023,
+                "temperatura_c": 18.44,
+                "humedad": 78.3,
+                "viento_kmh": 26.66,
+                "fecha_hora": "2026-09-06T09:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T09:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.260506,
+                "longitud": -75.560394,
+                "temperatura_c": 24.57,
+                "humedad": 57.9,
+                "viento_kmh": 6.79,
+                "fecha_hora": "2026-09-06T10:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T10:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.748934,
+                "longitud": -74.095437,
+                "temperatura_c": 23.14,
+                "humedad": 55.8,
+                "viento_kmh": 26.4,
+                "fecha_hora": "2026-09-06T11:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T11:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.423021,
+                "longitud": -76.527198,
+                "temperatura_c": 26.78,
+                "humedad": 53.4,
+                "viento_kmh": 28.26,
+                "fecha_hora": "2026-09-06T12:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T12:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.741808,
+                "longitud": -74.054538,
+                "temperatura_c": 26.58,
+                "humedad": 89.9,
+                "viento_kmh": 17.68,
+                "fecha_hora": "2026-09-06T12:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T12:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.465125,
+                "longitud": -76.503321,
+                "temperatura_c": 24.53,
+                "humedad": 68.1,
+                "viento_kmh": 14.21,
+                "fecha_hora": "2026-09-06T14:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T14:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.734731,
+                "longitud": -74.110678,
+                "temperatura_c": 18.54,
+                "humedad": 45.7,
+                "viento_kmh": 5.79,
+                "fecha_hora": "2026-09-06T15:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T15:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.386076,
+                "longitud": -75.480096,
+                "temperatura_c": 31.27,
+                "humedad": 65.3,
+                "viento_kmh": 23.86,
+                "fecha_hora": "2026-09-06T15:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T15:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.417328,
+                "longitud": -75.479045,
+                "temperatura_c": 24.53,
+                "humedad": 62.8,
+                "viento_kmh": 15.43,
+                "fecha_hora": "2026-09-06T16:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T16:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.353531,
+                "longitud": -75.486107,
+                "temperatura_c": 24.67,
+                "humedad": 56.9,
+                "viento_kmh": 7.28,
+                "fecha_hora": "2026-09-06T17:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T17:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.722254,
+                "longitud": -74.110858,
+                "temperatura_c": 25.4,
+                "humedad": 89.8,
+                "viento_kmh": 27.65,
+                "fecha_hora": "2026-09-06T18:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T18:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.959621,
+                "longitud": -74.820013,
+                "temperatura_c": 31.76,
+                "humedad": 69.7,
+                "viento_kmh": 28.03,
+                "fecha_hora": "2026-09-06T18:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T18:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.673964,
+                "longitud": -74.034416,
+                "temperatura_c": 22.1,
+                "humedad": 92.0,
+                "viento_kmh": 24.0,
+                "fecha_hora": "2026-09-06T19:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T19:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.432854,
+                "longitud": -76.510171,
+                "temperatura_c": 24.29,
+                "humedad": 51.7,
+                "viento_kmh": 1.16,
+                "fecha_hora": "2026-09-06T20:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T20:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.435881,
+                "longitud": -76.525623,
+                "temperatura_c": 29.82,
+                "humedad": 55.3,
+                "viento_kmh": 25.95,
+                "fecha_hora": "2026-09-06T21:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T21:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.954365,
+                "longitud": -74.812655,
+                "temperatura_c": 20.7,
+                "humedad": 83.1,
+                "viento_kmh": 6.13,
+                "fecha_hora": "2026-09-06T21:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T21:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.420609,
+                "longitud": -75.492821,
+                "temperatura_c": 21.06,
+                "humedad": 44.7,
+                "viento_kmh": 10.7,
+                "fecha_hora": "2026-09-06T22:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T22:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.717568,
+                "longitud": -74.060867,
+                "temperatura_c": 27.85,
+                "humedad": 44.5,
+                "viento_kmh": 8.1,
+                "fecha_hora": "2026-09-06T23:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-06T23:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.272759,
+                "longitud": -75.571722,
+                "temperatura_c": 29.5,
+                "humedad": 69.6,
+                "viento_kmh": 27.49,
+                "fecha_hora": "2026-09-07T00:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T00:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.365103,
+                "longitud": -75.474088,
+                "temperatura_c": 20.58,
+                "humedad": 85.5,
+                "viento_kmh": 30.49,
+                "fecha_hora": "2026-09-07T00:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T00:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.42444,
+                "longitud": -75.445639,
+                "temperatura_c": 18.4,
+                "humedad": 65.4,
+                "viento_kmh": 22.11,
+                "fecha_hora": "2026-09-07T01:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T01:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.997897,
+                "longitud": -74.752421,
+                "temperatura_c": 20.92,
+                "humedad": 61.0,
+                "viento_kmh": 6.65,
+                "fecha_hora": "2026-09-07T02:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T02:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.465329,
+                "longitud": -76.546252,
+                "temperatura_c": 23.97,
+                "humedad": 86.4,
+                "viento_kmh": 27.74,
+                "fecha_hora": "2026-09-07T03:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T03:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.261382,
+                "longitud": -75.565172,
+                "temperatura_c": 26.07,
+                "humedad": 81.3,
+                "viento_kmh": 3.9,
+                "fecha_hora": "2026-09-07T04:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T04:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.420659,
+                "longitud": -76.545911,
+                "temperatura_c": 21.13,
+                "humedad": 88.6,
+                "viento_kmh": 5.08,
+                "fecha_hora": "2026-09-07T05:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T05:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.73405,
+                "longitud": -74.088065,
+                "temperatura_c": 26.96,
+                "humedad": 71.8,
+                "viento_kmh": 19.32,
+                "fecha_hora": "2026-09-07T06:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T06:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Barranquilla",
+                "pais": "CO",
+                "latitud": 10.949407,
+                "longitud": -74.748859,
+                "temperatura_c": 19.26,
+                "humedad": 90.8,
+                "viento_kmh": 25.13,
+                "fecha_hora": "2026-09-07T06:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T06:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cartagena",
+                "pais": "CO",
+                "latitud": 10.358538,
+                "longitud": -75.465937,
+                "temperatura_c": 21.31,
+                "humedad": 76.8,
+                "viento_kmh": 23.95,
+                "fecha_hora": "2026-09-07T07:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T07:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.723226,
+                "longitud": -74.09617,
+                "temperatura_c": 31.3,
+                "humedad": 88.4,
+                "viento_kmh": 5.04,
+                "fecha_hora": "2026-09-07T08:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T08:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.241213,
+                "longitud": -75.615546,
+                "temperatura_c": 29.72,
+                "humedad": 70.3,
+                "viento_kmh": 14.27,
+                "fecha_hora": "2026-09-07T09:00:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T09:00:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Bogota",
+                "pais": "CO",
+                "latitud": 4.731164,
+                "longitud": -74.067246,
+                "temperatura_c": 31.54,
+                "humedad": 86.8,
+                "viento_kmh": 3.57,
+                "fecha_hora": "2026-09-07T09:45:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T09:45:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Cali",
+                "pais": "CO",
+                "latitud": 3.485329,
+                "longitud": -76.564481,
+                "temperatura_c": 26.02,
+                "humedad": 79.1,
+                "viento_kmh": 12.59,
+                "fecha_hora": "2026-09-07T10:30:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T10:30:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        },
+        {
+            "registro": {
+                "ciudad": "Medellin",
+                "pais": "CO",
+                "latitud": 6.261482,
+                "longitud": -75.558736,
+                "temperatura_c": 27.27,
+                "humedad": 78.0,
+                "viento_kmh": 12.81,
+                "fecha_hora": "2026-09-07T11:15:00",
+                "origen": "proveedor_b"
+            },
+            "status_code": 422,
+            "respuesta": "{\"detail\":[{\"type\":\"value_error\",\"loc\":[\"body\",\"fecha_hora\"],\"msg\":\"Value error, fecha_hora debe incluir zona horaria, por ejemplo Z o -05:00\",\"input\":\"2026-09-07T11:15:00\",\"ctx\":{\"error\":{}}}]}",
+            "motivo": "Error 4xx (No reintentable)"
+        }
+    ]
 }
