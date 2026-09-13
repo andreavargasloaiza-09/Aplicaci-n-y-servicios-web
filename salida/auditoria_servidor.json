@@ -1,9 +1,9 @@
 {
-    "equipo": "EQUIPO-11-APPSWEB",
+    "equipo": "EQUIPO-20-APPSWEB",
     "total": 190,
     "mediciones": [
         {
-            "id": 2671,
+            "id": 4005,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.242282,
@@ -13,10 +13,10 @@
             "viento_kmh": 30.492000000000004,
             "fecha_hora": "2026-09-01T00:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:26.108581+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:40.309727+00:00"
         },
         {
-            "id": 2672,
+            "id": 4006,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.24089,
@@ -26,10 +26,10 @@
             "viento_kmh": 18.36,
             "fecha_hora": "2026-09-01T00:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:26.383692+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:41.174492+00:00"
         },
         {
-            "id": 2673,
+            "id": 4007,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.478985,
@@ -39,10 +39,10 @@
             "viento_kmh": 6.5520000000000005,
             "fecha_hora": "2026-09-01T01:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:26.601463+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:41.987679+00:00"
         },
         {
-            "id": 2674,
+            "id": 4008,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.689884,
@@ -52,10 +52,10 @@
             "viento_kmh": 27.072,
             "fecha_hora": "2026-09-01T01:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:26.802455+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:43.005014+00:00"
         },
         {
-            "id": 2675,
+            "id": 4009,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.263611,
@@ -65,10 +65,10 @@
             "viento_kmh": 9.936,
             "fecha_hora": "2026-09-01T02:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:27.013021+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:43.841342+00:00"
         },
         {
-            "id": 2676,
+            "id": 4010,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.263473,
@@ -78,10 +78,10 @@
             "viento_kmh": 26.388,
             "fecha_hora": "2026-09-01T02:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:27.218859+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:44.649811+00:00"
         },
         {
-            "id": 2677,
+            "id": 4011,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.390843,
@@ -91,10 +91,10 @@
             "viento_kmh": 16.812,
             "fecha_hora": "2026-09-01T03:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:27.431210+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:45.445249+00:00"
         },
         {
-            "id": 2678,
+            "id": 4012,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.446973,
@@ -104,10 +104,10 @@
             "viento_kmh": 26.712,
             "fecha_hora": "2026-09-01T03:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:27.635642+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:46.347503+00:00"
         },
         {
-            "id": 2679,
+            "id": 4013,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.395305,
@@ -117,10 +117,10 @@
             "viento_kmh": 20.340000000000003,
             "fecha_hora": "2026-09-01T04:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:27.833310+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:47.225604+00:00"
         },
         {
-            "id": 2680,
+            "id": 4014,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.42462,
@@ -130,10 +130,10 @@
             "viento_kmh": 8.1,
             "fecha_hora": "2026-09-01T04:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:28.079725+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:48.122605+00:00"
         },
         {
-            "id": 2681,
+            "id": 4015,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.991168,
@@ -143,10 +143,10 @@
             "viento_kmh": 25.776,
             "fecha_hora": "2026-09-01T05:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:28.568447+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:48.899990+00:00"
         },
         {
-            "id": 2682,
+            "id": 4016,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.93704,
@@ -156,10 +156,10 @@
             "viento_kmh": 16.164,
             "fecha_hora": "2026-09-01T05:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:28.767642+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:49.746167+00:00"
         },
         {
-            "id": 2683,
+            "id": 4017,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.428253,
@@ -169,10 +169,10 @@
             "viento_kmh": 8.928,
             "fecha_hora": "2026-09-01T06:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:29.016960+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:50.561701+00:00"
         },
         {
-            "id": 2684,
+            "id": 4018,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.38505,
@@ -182,10 +182,10 @@
             "viento_kmh": 5.256,
             "fecha_hora": "2026-09-01T06:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:29.208391+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:51.313760+00:00"
         },
         {
-            "id": 2685,
+            "id": 4019,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.979715,
@@ -195,10 +195,10 @@
             "viento_kmh": 4.6080000000000005,
             "fecha_hora": "2026-09-01T07:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:29.453739+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:52.064354+00:00"
         },
         {
-            "id": 2686,
+            "id": 4020,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.25171,
@@ -208,10 +208,10 @@
             "viento_kmh": 8.64,
             "fecha_hora": "2026-09-01T08:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:29.651494+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:53.277353+00:00"
         },
         {
-            "id": 2687,
+            "id": 4021,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.707947,
@@ -221,10 +221,10 @@
             "viento_kmh": 29.736,
             "fecha_hora": "2026-09-01T08:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:29.868390+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:54.085579+00:00"
         },
         {
-            "id": 2688,
+            "id": 4022,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 11.001982,
@@ -234,10 +234,10 @@
             "viento_kmh": 2.628,
             "fecha_hora": "2026-09-01T09:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:30.078387+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:54.929458+00:00"
         },
         {
-            "id": 2689,
+            "id": 4023,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.724563,
@@ -247,10 +247,10 @@
             "viento_kmh": 19.728,
             "fecha_hora": "2026-09-01T09:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:30.295460+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:55.756839+00:00"
         },
         {
-            "id": 2690,
+            "id": 4024,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.470484,
@@ -260,10 +260,10 @@
             "viento_kmh": 11.664000000000001,
             "fecha_hora": "2026-09-01T10:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:30.502750+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:56.544189+00:00"
         },
         {
-            "id": 2691,
+            "id": 4025,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.939851,
@@ -273,10 +273,10 @@
             "viento_kmh": 18.540000000000003,
             "fecha_hora": "2026-09-01T10:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:30.727741+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:57.289724+00:00"
         },
         {
-            "id": 2692,
+            "id": 4026,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.994137,
@@ -286,10 +286,10 @@
             "viento_kmh": 1.512,
             "fecha_hora": "2026-09-01T11:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:31.207122+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:58.139017+00:00"
         },
         {
-            "id": 2693,
+            "id": 4027,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.715838,
@@ -299,10 +299,10 @@
             "viento_kmh": 2.7720000000000002,
             "fecha_hora": "2026-09-01T11:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:31.397205+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:58.984837+00:00"
         },
         {
-            "id": 2694,
+            "id": 4028,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.388873,
@@ -312,10 +312,10 @@
             "viento_kmh": 26.496000000000002,
             "fecha_hora": "2026-09-01T12:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:31.640452+00:00"
+            "fecha_recepcion": "2026-09-13T20:44:59.789221+00:00"
         },
         {
-            "id": 2695,
+            "id": 4029,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.721268,
@@ -325,10 +325,10 @@
             "viento_kmh": 6.84,
             "fecha_hora": "2026-09-01T12:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:31.897766+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:00.588610+00:00"
         },
         {
-            "id": 2696,
+            "id": 4030,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.989931,
@@ -338,10 +338,10 @@
             "viento_kmh": 23.112000000000002,
             "fecha_hora": "2026-09-01T13:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:32.124821+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:01.486515+00:00"
         },
         {
-            "id": 2697,
+            "id": 4031,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.485191,
@@ -351,10 +351,10 @@
             "viento_kmh": 9.432,
             "fecha_hora": "2026-09-01T13:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:32.301587+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:02.297560+00:00"
         },
         {
-            "id": 2698,
+            "id": 4032,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.373722,
@@ -364,10 +364,10 @@
             "viento_kmh": 6.732,
             "fecha_hora": "2026-09-01T14:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:32.925448+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:03.059834+00:00"
         },
         {
-            "id": 2699,
+            "id": 4033,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.727732,
@@ -377,10 +377,10 @@
             "viento_kmh": 16.416,
             "fecha_hora": "2026-09-01T14:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:33.138026+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:03.794840+00:00"
         },
         {
-            "id": 2700,
+            "id": 4034,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.978111,
@@ -390,10 +390,10 @@
             "viento_kmh": 18.36,
             "fecha_hora": "2026-09-01T15:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:33.360149+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:04.582381+00:00"
         },
         {
-            "id": 2701,
+            "id": 4035,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.366127,
@@ -403,10 +403,10 @@
             "viento_kmh": 10.620000000000001,
             "fecha_hora": "2026-09-01T16:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:33.610948+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:05.434960+00:00"
         },
         {
-            "id": 2702,
+            "id": 4036,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.237118,
@@ -416,10 +416,10 @@
             "viento_kmh": 23.040000000000003,
             "fecha_hora": "2026-09-01T16:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:33.814049+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:06.260941+00:00"
         },
         {
-            "id": 2703,
+            "id": 4037,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.958664,
@@ -429,10 +429,10 @@
             "viento_kmh": 19.656,
             "fecha_hora": "2026-09-01T17:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:34.045606+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:06.999977+00:00"
         },
         {
-            "id": 2704,
+            "id": 4038,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.971338,
@@ -442,10 +442,10 @@
             "viento_kmh": 6.012,
             "fecha_hora": "2026-09-01T17:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:34.259133+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:08.363351+00:00"
         },
         {
-            "id": 2705,
+            "id": 4039,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.410702,
@@ -455,10 +455,10 @@
             "viento_kmh": 4.32,
             "fecha_hora": "2026-09-01T18:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:34.451408+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:09.177307+00:00"
         },
         {
-            "id": 2706,
+            "id": 4040,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.233371,
@@ -468,10 +468,10 @@
             "viento_kmh": 17.856,
             "fecha_hora": "2026-09-01T18:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:34.694974+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:10.020738+00:00"
         },
         {
-            "id": 2707,
+            "id": 4041,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.27179,
@@ -481,10 +481,10 @@
             "viento_kmh": 14.364,
             "fecha_hora": "2026-09-01T19:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:34.929021+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:10.815333+00:00"
         },
         {
-            "id": 2708,
+            "id": 4042,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.940162,
@@ -494,10 +494,10 @@
             "viento_kmh": 15.912,
             "fecha_hora": "2026-09-01T20:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:35.285946+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:12.929756+00:00"
         },
         {
-            "id": 2709,
+            "id": 4043,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.264381,
@@ -507,10 +507,10 @@
             "viento_kmh": 18.432000000000002,
             "fecha_hora": "2026-09-01T20:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:35.539914+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:13.753693+00:00"
         },
         {
-            "id": 2710,
+            "id": 4044,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.211541,
@@ -520,10 +520,10 @@
             "viento_kmh": 20.556,
             "fecha_hora": "2026-09-01T21:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:35.736130+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:14.569819+00:00"
         },
         {
-            "id": 2711,
+            "id": 4045,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.988991,
@@ -533,10 +533,10 @@
             "viento_kmh": 3.42,
             "fecha_hora": "2026-09-01T21:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:35.976596+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:15.364458+00:00"
         },
         {
-            "id": 2712,
+            "id": 4046,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.432141,
@@ -546,10 +546,10 @@
             "viento_kmh": 23.112000000000002,
             "fecha_hora": "2026-09-01T22:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:36.186953+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:16.123199+00:00"
         },
         {
-            "id": 2713,
+            "id": 4047,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.994996,
@@ -559,10 +559,10 @@
             "viento_kmh": 11.916,
             "fecha_hora": "2026-09-01T22:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:36.379024+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:16.858992+00:00"
         },
         {
-            "id": 2714,
+            "id": 4048,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.482025,
@@ -572,10 +572,10 @@
             "viento_kmh": 17.712,
             "fecha_hora": "2026-09-01T23:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:36.907889+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:17.714737+00:00"
         },
         {
-            "id": 2715,
+            "id": 4049,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.697935,
@@ -585,10 +585,10 @@
             "viento_kmh": 2.3400000000000003,
             "fecha_hora": "2026-09-01T23:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:37.120886+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:18.569417+00:00"
         },
         {
-            "id": 2716,
+            "id": 4050,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.719695,
@@ -598,10 +598,10 @@
             "viento_kmh": 21.204,
             "fecha_hora": "2026-09-02T00:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:37.339611+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:19.424747+00:00"
         },
         {
-            "id": 2717,
+            "id": 4051,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.454373,
@@ -611,10 +611,10 @@
             "viento_kmh": 20.7,
             "fecha_hora": "2026-09-02T00:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:37.566192+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:20.281883+00:00"
         },
         {
-            "id": 2718,
+            "id": 4052,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.411125,
@@ -624,10 +624,10 @@
             "viento_kmh": 13.536,
             "fecha_hora": "2026-09-02T01:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:37.803645+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:21.125871+00:00"
         },
         {
-            "id": 2719,
+            "id": 4053,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.364442,
@@ -637,10 +637,10 @@
             "viento_kmh": 27.18,
             "fecha_hora": "2026-09-02T01:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:38.063003+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:21.916917+00:00"
         },
         {
-            "id": 2720,
+            "id": 4054,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.230519,
@@ -650,10 +650,10 @@
             "viento_kmh": 28.656,
             "fecha_hora": "2026-09-02T02:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:38.303009+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:22.706739+00:00"
         },
         {
-            "id": 2721,
+            "id": 4055,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.361914,
@@ -663,10 +663,10 @@
             "viento_kmh": 7.2,
             "fecha_hora": "2026-09-02T02:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:38.818584+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:23.609605+00:00"
         },
         {
-            "id": 2722,
+            "id": 4056,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.250044,
@@ -676,10 +676,10 @@
             "viento_kmh": 10.08,
             "fecha_hora": "2026-09-02T03:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:39.021890+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:24.425213+00:00"
         },
         {
-            "id": 2723,
+            "id": 4057,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.357598,
@@ -689,10 +689,10 @@
             "viento_kmh": 2.196,
             "fecha_hora": "2026-09-02T03:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:39.214449+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:25.280945+00:00"
         },
         {
-            "id": 2724,
+            "id": 4058,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.735595,
@@ -702,10 +702,10 @@
             "viento_kmh": 2.8800000000000003,
             "fecha_hora": "2026-09-02T04:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:39.419032+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:26.065415+00:00"
         },
         {
-            "id": 2725,
+            "id": 4059,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.257244,
@@ -715,10 +715,10 @@
             "viento_kmh": 21.096,
             "fecha_hora": "2026-09-02T04:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:39.725930+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:26.861632+00:00"
         },
         {
-            "id": 2726,
+            "id": 4060,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.967969,
@@ -728,10 +728,10 @@
             "viento_kmh": 22.824,
             "fecha_hora": "2026-09-02T05:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:39.937853+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:27.621633+00:00"
         },
         {
-            "id": 2727,
+            "id": 4061,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.721328,
@@ -741,10 +741,10 @@
             "viento_kmh": 11.700000000000001,
             "fecha_hora": "2026-09-02T05:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:40.154303+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:28.416983+00:00"
         },
         {
-            "id": 2728,
+            "id": 4062,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 11.003012,
@@ -754,10 +754,10 @@
             "viento_kmh": 30.456000000000003,
             "fecha_hora": "2026-09-02T06:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:40.370807+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:29.179219+00:00"
         },
         {
-            "id": 2729,
+            "id": 4063,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.692139,
@@ -767,10 +767,10 @@
             "viento_kmh": 20.556,
             "fecha_hora": "2026-09-02T06:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:40.620820+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:29.984197+00:00"
         },
         {
-            "id": 2730,
+            "id": 4064,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.960074,
@@ -780,10 +780,10 @@
             "viento_kmh": 15.156,
             "fecha_hora": "2026-09-02T07:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:40.855628+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:30.748536+00:00"
         },
         {
-            "id": 2731,
+            "id": 4065,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.37523,
@@ -793,10 +793,10 @@
             "viento_kmh": 25.740000000000002,
             "fecha_hora": "2026-09-02T07:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:41.099449+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:31.504940+00:00"
         },
         {
-            "id": 2732,
+            "id": 4066,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.955931,
@@ -806,10 +806,10 @@
             "viento_kmh": 3.9600000000000004,
             "fecha_hora": "2026-09-02T08:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:41.329967+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:32.319854+00:00"
         },
         {
-            "id": 2733,
+            "id": 4067,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.956731,
@@ -819,10 +819,10 @@
             "viento_kmh": 19.8,
             "fecha_hora": "2026-09-02T08:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:41.530766+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:33.095705+00:00"
         },
         {
-            "id": 2734,
+            "id": 4068,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.683868,
@@ -832,10 +832,10 @@
             "viento_kmh": 17.1,
             "fecha_hora": "2026-09-02T09:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:41.743709+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:33.884816+00:00"
         },
         {
-            "id": 2735,
+            "id": 4069,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.682693,
@@ -845,10 +845,10 @@
             "viento_kmh": 8.784,
             "fecha_hora": "2026-09-02T09:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:41.964791+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:34.706780+00:00"
         },
         {
-            "id": 2736,
+            "id": 4070,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.247402,
@@ -858,10 +858,10 @@
             "viento_kmh": 22.5,
             "fecha_hora": "2026-09-02T10:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:42.204941+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:35.483294+00:00"
         },
         {
-            "id": 2737,
+            "id": 4071,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.713615,
@@ -871,10 +871,10 @@
             "viento_kmh": 5.976,
             "fecha_hora": "2026-09-02T10:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:42.420587+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:36.265672+00:00"
         },
         {
-            "id": 2738,
+            "id": 4072,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.745787,
@@ -884,10 +884,10 @@
             "viento_kmh": 13.068,
             "fecha_hora": "2026-09-02T11:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:42.626736+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:37.050198+00:00"
         },
         {
-            "id": 2739,
+            "id": 4073,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.458938,
@@ -897,10 +897,10 @@
             "viento_kmh": 18.0,
             "fecha_hora": "2026-09-02T11:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:42.872797+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:37.777342+00:00"
         },
         {
-            "id": 2740,
+            "id": 4074,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.482465,
@@ -910,10 +910,10 @@
             "viento_kmh": 25.236,
             "fecha_hora": "2026-09-02T12:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:43.078844+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:38.702391+00:00"
         },
         {
-            "id": 2741,
+            "id": 4075,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.728116,
@@ -923,10 +923,10 @@
             "viento_kmh": 11.232000000000001,
             "fecha_hora": "2026-09-02T12:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:43.301360+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:39.496794+00:00"
         },
         {
-            "id": 2742,
+            "id": 4076,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.73455,
@@ -936,10 +936,10 @@
             "viento_kmh": 14.652000000000001,
             "fecha_hora": "2026-09-02T13:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:43.536174+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:40.280571+00:00"
         },
         {
-            "id": 2743,
+            "id": 4077,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.222722,
@@ -949,10 +949,10 @@
             "viento_kmh": 5.652,
             "fecha_hora": "2026-09-02T13:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:43.734592+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:41.128754+00:00"
         },
         {
-            "id": 2744,
+            "id": 4078,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.477192,
@@ -962,10 +962,10 @@
             "viento_kmh": 9.0,
             "fecha_hora": "2026-09-02T14:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:43.929334+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:41.894856+00:00"
         },
         {
-            "id": 2745,
+            "id": 4079,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.262278,
@@ -975,10 +975,10 @@
             "viento_kmh": 30.276,
             "fecha_hora": "2026-09-02T14:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:44.188908+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:42.689338+00:00"
         },
         {
-            "id": 2746,
+            "id": 4080,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.264253,
@@ -988,10 +988,10 @@
             "viento_kmh": 26.136,
             "fecha_hora": "2026-09-02T15:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:44.415038+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:43.509501+00:00"
         },
         {
-            "id": 2747,
+            "id": 4081,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.718732,
@@ -1001,10 +1001,10 @@
             "viento_kmh": 0.9720000000000001,
             "fecha_hora": "2026-09-02T15:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:44.609776+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:44.292983+00:00"
         },
         {
-            "id": 2748,
+            "id": 4082,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.273318,
@@ -1014,10 +1014,10 @@
             "viento_kmh": 19.584000000000003,
             "fecha_hora": "2026-09-02T16:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:44.831737+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:45.076203+00:00"
         },
         {
-            "id": 2749,
+            "id": 4083,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.463862,
@@ -1027,10 +1027,10 @@
             "viento_kmh": 15.408000000000001,
             "fecha_hora": "2026-09-02T17:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:45.036750+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:45.818200+00:00"
         },
         {
-            "id": 2750,
+            "id": 4084,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.248413,
@@ -1040,10 +1040,10 @@
             "viento_kmh": 3.492,
             "fecha_hora": "2026-09-02T17:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:45.239309+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:46.642009+00:00"
         },
         {
-            "id": 2751,
+            "id": 4085,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.993794,
@@ -1053,10 +1053,10 @@
             "viento_kmh": 20.664,
             "fecha_hora": "2026-09-02T18:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:45.463531+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:47.450457+00:00"
         },
         {
-            "id": 2752,
+            "id": 4086,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.959161,
@@ -1066,10 +1066,10 @@
             "viento_kmh": 16.740000000000002,
             "fecha_hora": "2026-09-02T18:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:45.648545+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:48.207697+00:00"
         },
         {
-            "id": 2753,
+            "id": 4087,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.44596,
@@ -1079,10 +1079,10 @@
             "viento_kmh": 12.456,
             "fecha_hora": "2026-09-02T19:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:45.839520+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:48.981830+00:00"
         },
         {
-            "id": 2754,
+            "id": 4088,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.745479,
@@ -1092,10 +1092,10 @@
             "viento_kmh": 9.972,
             "fecha_hora": "2026-09-02T20:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:46.045603+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:49.762385+00:00"
         },
         {
-            "id": 2755,
+            "id": 4089,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.223375,
@@ -1105,10 +1105,10 @@
             "viento_kmh": 17.748,
             "fecha_hora": "2026-09-02T20:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:46.238244+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:50.562470+00:00"
         },
         {
-            "id": 2756,
+            "id": 4090,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.692325,
@@ -1118,10 +1118,10 @@
             "viento_kmh": 9.288,
             "fecha_hora": "2026-09-02T21:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:46.652906+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:51.322281+00:00"
         },
         {
-            "id": 2757,
+            "id": 4091,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.235675,
@@ -1131,10 +1131,10 @@
             "viento_kmh": 16.956,
             "fecha_hora": "2026-09-02T21:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:46.883248+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:52.076621+00:00"
         },
         {
-            "id": 2758,
+            "id": 4092,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.935937,
@@ -1144,10 +1144,10 @@
             "viento_kmh": 5.292,
             "fecha_hora": "2026-09-02T22:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:47.097029+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:52.904485+00:00"
         },
         {
-            "id": 2759,
+            "id": 4093,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.4717,
@@ -1157,10 +1157,10 @@
             "viento_kmh": 7.632000000000001,
             "fecha_hora": "2026-09-02T22:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:47.282535+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:53.768575+00:00"
         },
         {
-            "id": 2760,
+            "id": 4094,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.266563,
@@ -1170,10 +1170,10 @@
             "viento_kmh": 25.488,
             "fecha_hora": "2026-09-02T23:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:47.484152+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:54.592889+00:00"
         },
         {
-            "id": 2761,
+            "id": 4095,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.212333,
@@ -1183,10 +1183,10 @@
             "viento_kmh": 2.3040000000000003,
             "fecha_hora": "2026-09-02T23:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:47.719534+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:55.338113+00:00"
         },
         {
-            "id": 2762,
+            "id": 4096,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.26735,
@@ -1196,10 +1196,10 @@
             "viento_kmh": 16.812,
             "fecha_hora": "2026-09-03T00:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:47.913042+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:56.080443+00:00"
         },
         {
-            "id": 2763,
+            "id": 4097,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.247136,
@@ -1209,10 +1209,10 @@
             "viento_kmh": 19.836,
             "fecha_hora": "2026-09-03T00:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:48.101884+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:56.859355+00:00"
         },
         {
-            "id": 2764,
+            "id": 4098,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.383402,
@@ -1222,10 +1222,10 @@
             "viento_kmh": 18.864,
             "fecha_hora": "2026-09-03T01:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:48.296593+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:57.616485+00:00"
         },
         {
-            "id": 2765,
+            "id": 4099,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.485531,
@@ -1235,10 +1235,10 @@
             "viento_kmh": 4.104,
             "fecha_hora": "2026-09-03T01:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:48.541541+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:58.371872+00:00"
         },
         {
-            "id": 2766,
+            "id": 4100,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.713685,
@@ -1248,10 +1248,10 @@
             "viento_kmh": 12.312,
             "fecha_hora": "2026-09-03T02:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:48.737373+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:59.121426+00:00"
         },
         {
-            "id": 2767,
+            "id": 4101,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.957536,
@@ -1261,10 +1261,10 @@
             "viento_kmh": 27.144000000000002,
             "fecha_hora": "2026-09-03T02:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:49.019511+00:00"
+            "fecha_recepcion": "2026-09-13T20:45:59.975507+00:00"
         },
         {
-            "id": 2768,
+            "id": 4102,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.471387,
@@ -1274,10 +1274,10 @@
             "viento_kmh": 2.052,
             "fecha_hora": "2026-09-03T03:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:49.219828+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:00.755527+00:00"
         },
         {
-            "id": 2769,
+            "id": 4103,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.396356,
@@ -1287,10 +1287,10 @@
             "viento_kmh": 13.68,
             "fecha_hora": "2026-09-03T03:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:49.440775+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:01.559270+00:00"
         },
         {
-            "id": 2770,
+            "id": 4104,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.263513,
@@ -1300,10 +1300,10 @@
             "viento_kmh": 25.992,
             "fecha_hora": "2026-09-03T04:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:49.641202+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:02.325023+00:00"
         },
         {
-            "id": 2771,
+            "id": 4105,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.949735,
@@ -1313,10 +1313,10 @@
             "viento_kmh": 2.3040000000000003,
             "fecha_hora": "2026-09-03T04:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:49.842741+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:03.074244+00:00"
         },
         {
-            "id": 2772,
+            "id": 4106,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.404031,
@@ -1326,10 +1326,10 @@
             "viento_kmh": 2.7,
             "fecha_hora": "2026-09-03T05:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:50.058507+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:03.897831+00:00"
         },
         {
-            "id": 2773,
+            "id": 4107,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.218128,
@@ -1339,10 +1339,10 @@
             "viento_kmh": 25.344,
             "fecha_hora": "2026-09-03T05:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:50.321450+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:04.712575+00:00"
         },
         {
-            "id": 2774,
+            "id": 4108,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.436789,
@@ -1352,10 +1352,10 @@
             "viento_kmh": 1.1520000000000001,
             "fecha_hora": "2026-09-03T06:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:50.540757+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:05.433605+00:00"
         },
         {
-            "id": 2775,
+            "id": 4109,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.390106,
@@ -1365,10 +1365,10 @@
             "viento_kmh": 1.764,
             "fecha_hora": "2026-09-03T06:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:50.773134+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:06.172522+00:00"
         },
         {
-            "id": 2776,
+            "id": 4110,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.97859,
@@ -1378,10 +1378,10 @@
             "viento_kmh": 16.92,
             "fecha_hora": "2026-09-03T07:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:50.961216+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:06.943030+00:00"
         },
         {
-            "id": 2777,
+            "id": 4111,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.687426,
@@ -1391,10 +1391,10 @@
             "viento_kmh": 27.684,
             "fecha_hora": "2026-09-03T07:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:51.198902+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:07.704206+00:00"
         },
         {
-            "id": 2778,
+            "id": 4112,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.229562,
@@ -1404,10 +1404,10 @@
             "viento_kmh": 17.28,
             "fecha_hora": "2026-09-03T08:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:51.516220+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:08.431174+00:00"
         },
         {
-            "id": 2779,
+            "id": 4113,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.370746,
@@ -1417,10 +1417,10 @@
             "viento_kmh": 9.251999999999999,
             "fecha_hora": "2026-09-03T08:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:51.870868+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:09.231776+00:00"
         },
         {
-            "id": 2780,
+            "id": 4114,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.970347,
@@ -1430,10 +1430,10 @@
             "viento_kmh": 25.38,
             "fecha_hora": "2026-09-03T09:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:52.100523+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:09.980141+00:00"
         },
         {
-            "id": 2781,
+            "id": 4115,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.486547,
@@ -1443,10 +1443,10 @@
             "viento_kmh": 20.376,
             "fecha_hora": "2026-09-03T09:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:52.299480+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:10.760606+00:00"
         },
         {
-            "id": 2782,
+            "id": 4116,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.723585,
@@ -1456,10 +1456,10 @@
             "viento_kmh": 25.668,
             "fecha_hora": "2026-09-03T10:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:52.487484+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:11.583409+00:00"
         },
         {
-            "id": 2783,
+            "id": 4117,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.968868,
@@ -1469,10 +1469,10 @@
             "viento_kmh": 11.304,
             "fecha_hora": "2026-09-03T10:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:52.714327+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:12.353814+00:00"
         },
         {
-            "id": 2784,
+            "id": 4118,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.477031,
@@ -1482,10 +1482,10 @@
             "viento_kmh": 15.984000000000002,
             "fecha_hora": "2026-09-03T11:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:52.985635+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:13.440516+00:00"
         },
         {
-            "id": 2785,
+            "id": 4119,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.389992,
@@ -1495,10 +1495,10 @@
             "viento_kmh": 13.14,
             "fecha_hora": "2026-09-03T11:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:53.182993+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:14.165547+00:00"
         },
         {
-            "id": 2786,
+            "id": 4120,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.681356,
@@ -1508,10 +1508,10 @@
             "viento_kmh": 16.488,
             "fecha_hora": "2026-09-03T12:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:53.385437+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:14.966420+00:00"
         },
         {
-            "id": 2787,
+            "id": 4121,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.420022,
@@ -1521,10 +1521,10 @@
             "viento_kmh": 8.784,
             "fecha_hora": "2026-09-03T12:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:53.623414+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:15.730050+00:00"
         },
         {
-            "id": 2788,
+            "id": 4122,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.269357,
@@ -1534,10 +1534,10 @@
             "viento_kmh": 3.06,
             "fecha_hora": "2026-09-03T13:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:53.838043+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:16.494461+00:00"
         },
         {
-            "id": 2789,
+            "id": 4123,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.232818,
@@ -1547,10 +1547,10 @@
             "viento_kmh": 2.592,
             "fecha_hora": "2026-09-03T13:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:54.108980+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:17.257418+00:00"
         },
         {
-            "id": 2790,
+            "id": 4124,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.981767,
@@ -1560,10 +1560,10 @@
             "viento_kmh": 25.848,
             "fecha_hora": "2026-09-03T14:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:54.295834+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:17.989640+00:00"
         },
         {
-            "id": 2791,
+            "id": 4125,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.382828,
@@ -1573,10 +1573,10 @@
             "viento_kmh": 7.236,
             "fecha_hora": "2026-09-03T14:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:54.486965+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:18.735933+00:00"
         },
         {
-            "id": 2792,
+            "id": 4126,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.365675,
@@ -1586,10 +1586,10 @@
             "viento_kmh": 4.6080000000000005,
             "fecha_hora": "2026-09-03T15:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:54.713198+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:19.624609+00:00"
         },
         {
-            "id": 2793,
+            "id": 4127,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.357388,
@@ -1599,10 +1599,10 @@
             "viento_kmh": 22.284000000000002,
             "fecha_hora": "2026-09-03T15:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:54.918276+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:20.349679+00:00"
         },
         {
-            "id": 2794,
+            "id": 4128,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.481406,
@@ -1612,10 +1612,10 @@
             "viento_kmh": 17.928,
             "fecha_hora": "2026-09-03T16:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:55.109895+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:21.084091+00:00"
         },
         {
-            "id": 2795,
+            "id": 4129,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.40744,
@@ -1625,10 +1625,10 @@
             "viento_kmh": 21.744,
             "fecha_hora": "2026-09-03T16:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:55.424544+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:21.862109+00:00"
         },
         {
-            "id": 2796,
+            "id": 4130,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.435438,
@@ -1638,10 +1638,10 @@
             "viento_kmh": 4.572,
             "fecha_hora": "2026-09-03T17:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:55.609754+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:22.582825+00:00"
         },
         {
-            "id": 2797,
+            "id": 4131,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.967257,
@@ -1651,10 +1651,10 @@
             "viento_kmh": 10.8,
             "fecha_hora": "2026-09-03T17:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:55.785282+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:23.334600+00:00"
         },
         {
-            "id": 2798,
+            "id": 4132,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.383144,
@@ -1664,10 +1664,10 @@
             "viento_kmh": 13.176,
             "fecha_hora": "2026-09-03T18:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:55.971704+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:24.126042+00:00"
         },
         {
-            "id": 2799,
+            "id": 4133,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.718172,
@@ -1677,10 +1677,10 @@
             "viento_kmh": 30.384,
             "fecha_hora": "2026-09-03T18:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:56.163595+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:24.931864+00:00"
         },
         {
-            "id": 2800,
+            "id": 4134,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.235918,
@@ -1690,10 +1690,10 @@
             "viento_kmh": 2.7,
             "fecha_hora": "2026-09-03T19:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:56.399669+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:25.681941+00:00"
         },
         {
-            "id": 2801,
+            "id": 4135,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.464988,
@@ -1703,10 +1703,10 @@
             "viento_kmh": 14.976,
             "fecha_hora": "2026-09-03T20:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:56.624396+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:26.413879+00:00"
         },
         {
-            "id": 2802,
+            "id": 4136,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.387364,
@@ -1716,10 +1716,10 @@
             "viento_kmh": 4.032000000000001,
             "fecha_hora": "2026-09-03T20:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:56.848416+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:27.142527+00:00"
         },
         {
-            "id": 2803,
+            "id": 4137,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.996126,
@@ -1729,10 +1729,10 @@
             "viento_kmh": 19.188000000000002,
             "fecha_hora": "2026-09-03T21:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:57.066134+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:27.881382+00:00"
         },
         {
-            "id": 2804,
+            "id": 4138,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.247427,
@@ -1742,10 +1742,10 @@
             "viento_kmh": 2.2680000000000002,
             "fecha_hora": "2026-09-03T21:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:57.253547+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:28.679876+00:00"
         },
         {
-            "id": 2805,
+            "id": 4139,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.397132,
@@ -1755,10 +1755,10 @@
             "viento_kmh": 23.652,
             "fecha_hora": "2026-09-03T22:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:57.469805+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:29.492261+00:00"
         },
         {
-            "id": 2806,
+            "id": 4140,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.951739,
@@ -1768,10 +1768,10 @@
             "viento_kmh": 26.28,
             "fecha_hora": "2026-09-03T22:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:57.664626+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:30.240156+00:00"
         },
         {
-            "id": 2807,
+            "id": 4141,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.255416,
@@ -1781,10 +1781,10 @@
             "viento_kmh": 18.468,
             "fecha_hora": "2026-09-03T23:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:57.908597+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:30.981961+00:00"
         },
         {
-            "id": 2808,
+            "id": 4142,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.698673,
@@ -1794,10 +1794,10 @@
             "viento_kmh": 20.844,
             "fecha_hora": "2026-09-03T23:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:58.171573+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:31.735390+00:00"
         },
         {
-            "id": 2809,
+            "id": 4143,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.440095,
@@ -1807,10 +1807,10 @@
             "viento_kmh": 22.428,
             "fecha_hora": "2026-09-04T00:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:58.362493+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:32.522566+00:00"
         },
         {
-            "id": 2810,
+            "id": 4144,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.42541,
@@ -1820,10 +1820,10 @@
             "viento_kmh": 8.928,
             "fecha_hora": "2026-09-04T00:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:58.583037+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:33.281452+00:00"
         },
         {
-            "id": 2811,
+            "id": 4145,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.483429,
@@ -1833,10 +1833,10 @@
             "viento_kmh": 13.572000000000001,
             "fecha_hora": "2026-09-04T01:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:58.764032+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:34.073206+00:00"
         },
         {
-            "id": 2812,
+            "id": 4146,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.425305,
@@ -1846,10 +1846,10 @@
             "viento_kmh": 22.752000000000002,
             "fecha_hora": "2026-09-04T01:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:58.941492+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:34.862402+00:00"
         },
         {
-            "id": 2813,
+            "id": 4147,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.985143,
@@ -1859,10 +1859,10 @@
             "viento_kmh": 15.336,
             "fecha_hora": "2026-09-04T02:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:59.449620+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:35.650418+00:00"
         },
         {
-            "id": 2814,
+            "id": 4148,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.232717,
@@ -1872,10 +1872,10 @@
             "viento_kmh": 26.028000000000002,
             "fecha_hora": "2026-09-04T03:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:59.633186+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:36.461788+00:00"
         },
         {
-            "id": 2815,
+            "id": 4149,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.960839,
@@ -1885,10 +1885,10 @@
             "viento_kmh": 24.912,
             "fecha_hora": "2026-09-04T03:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:05:59.876424+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:37.201829+00:00"
         },
         {
-            "id": 2816,
+            "id": 4150,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.697141,
@@ -1898,10 +1898,10 @@
             "viento_kmh": 14.112,
             "fecha_hora": "2026-09-04T04:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:00.073709+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:38.009795+00:00"
         },
         {
-            "id": 2817,
+            "id": 4151,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.421595,
@@ -1911,10 +1911,10 @@
             "viento_kmh": 10.836,
             "fecha_hora": "2026-09-04T04:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:00.313319+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:38.740994+00:00"
         },
         {
-            "id": 2818,
+            "id": 4152,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.240985,
@@ -1924,10 +1924,10 @@
             "viento_kmh": 19.98,
             "fecha_hora": "2026-09-04T05:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:00.534211+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:39.573837+00:00"
         },
         {
-            "id": 2819,
+            "id": 4153,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.45355,
@@ -1937,10 +1937,10 @@
             "viento_kmh": 10.26,
             "fecha_hora": "2026-09-04T05:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:00.738793+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:40.351426+00:00"
         },
         {
-            "id": 2820,
+            "id": 4154,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.253659,
@@ -1950,10 +1950,10 @@
             "viento_kmh": 22.608,
             "fecha_hora": "2026-09-04T06:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:00.958356+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:41.134054+00:00"
         },
         {
-            "id": 2821,
+            "id": 4155,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.212927,
@@ -1963,10 +1963,10 @@
             "viento_kmh": 29.016000000000002,
             "fecha_hora": "2026-09-04T06:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:01.157943+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:41.905841+00:00"
         },
         {
-            "id": 2822,
+            "id": 4156,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.417804,
@@ -1976,10 +1976,10 @@
             "viento_kmh": 5.328,
             "fecha_hora": "2026-09-04T07:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:01.333339+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:42.676835+00:00"
         },
         {
-            "id": 2823,
+            "id": 4157,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.71935,
@@ -1989,10 +1989,10 @@
             "viento_kmh": 26.496000000000002,
             "fecha_hora": "2026-09-04T07:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:01.520434+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:43.432728+00:00"
         },
         {
-            "id": 2824,
+            "id": 4158,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.235507,
@@ -2002,10 +2002,10 @@
             "viento_kmh": 30.419999999999998,
             "fecha_hora": "2026-09-04T08:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:01.771654+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:44.270655+00:00"
         },
         {
-            "id": 2825,
+            "id": 4159,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.264826,
@@ -2015,10 +2015,10 @@
             "viento_kmh": 21.744,
             "fecha_hora": "2026-09-04T08:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:02.008529+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:45.105995+00:00"
         },
         {
-            "id": 2826,
+            "id": 4160,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.359257,
@@ -2028,10 +2028,10 @@
             "viento_kmh": 7.452,
             "fecha_hora": "2026-09-04T09:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:02.289536+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:45.906838+00:00"
         },
         {
-            "id": 2827,
+            "id": 4161,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.39885,
@@ -2041,10 +2041,10 @@
             "viento_kmh": 28.907999999999998,
             "fecha_hora": "2026-09-04T09:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:02.491709+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:46.709954+00:00"
         },
         {
-            "id": 2828,
+            "id": 4162,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.256158,
@@ -2054,10 +2054,10 @@
             "viento_kmh": 2.484,
             "fecha_hora": "2026-09-04T10:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:02.743932+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:47.471834+00:00"
         },
         {
-            "id": 2829,
+            "id": 4163,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.466006,
@@ -2067,10 +2067,10 @@
             "viento_kmh": 4.032000000000001,
             "fecha_hora": "2026-09-04T10:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:02.969497+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:48.246934+00:00"
         },
         {
-            "id": 2830,
+            "id": 4164,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.240943,
@@ -2080,10 +2080,10 @@
             "viento_kmh": 25.884,
             "fecha_hora": "2026-09-04T11:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:03.197665+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:49.011163+00:00"
         },
         {
-            "id": 2831,
+            "id": 4165,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.97399,
@@ -2093,10 +2093,10 @@
             "viento_kmh": 23.436,
             "fecha_hora": "2026-09-04T11:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:03.439486+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:49.839403+00:00"
         },
         {
-            "id": 2832,
+            "id": 4166,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.691571,
@@ -2106,10 +2106,10 @@
             "viento_kmh": 24.12,
             "fecha_hora": "2026-09-04T12:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:03.655809+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:50.593348+00:00"
         },
         {
-            "id": 2833,
+            "id": 4167,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.715343,
@@ -2119,10 +2119,10 @@
             "viento_kmh": 26.82,
             "fecha_hora": "2026-09-04T12:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:03.854891+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:51.324590+00:00"
         },
         {
-            "id": 2834,
+            "id": 4168,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.724025,
@@ -2132,10 +2132,10 @@
             "viento_kmh": 17.748,
             "fecha_hora": "2026-09-04T13:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:04.046012+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:52.065789+00:00"
         },
         {
-            "id": 2835,
+            "id": 4169,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.232292,
@@ -2145,10 +2145,10 @@
             "viento_kmh": 7.02,
             "fecha_hora": "2026-09-04T13:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:04.276526+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:52.972464+00:00"
         },
         {
-            "id": 2836,
+            "id": 4170,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.412584,
@@ -2158,10 +2158,10 @@
             "viento_kmh": 2.2680000000000002,
             "fecha_hora": "2026-09-04T15:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:04.611683+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:54.523432+00:00"
         },
         {
-            "id": 2837,
+            "id": 4171,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.433823,
@@ -2171,10 +2171,10 @@
             "viento_kmh": 7.524,
             "fecha_hora": "2026-09-04T16:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:04.807352+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:55.301426+00:00"
         },
         {
-            "id": 2838,
+            "id": 4172,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.215213,
@@ -2184,10 +2184,10 @@
             "viento_kmh": 16.02,
             "fecha_hora": "2026-09-04T16:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:05.002472+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:56.034361+00:00"
         },
         {
-            "id": 2839,
+            "id": 4173,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.223014,
@@ -2197,10 +2197,10 @@
             "viento_kmh": 23.796000000000003,
             "fecha_hora": "2026-09-04T17:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:05.259491+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:56.774836+00:00"
         },
         {
-            "id": 2840,
+            "id": 4174,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.461725,
@@ -2210,10 +2210,10 @@
             "viento_kmh": 9.864,
             "fecha_hora": "2026-09-04T17:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:05.504408+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:57.466973+00:00"
         },
         {
-            "id": 2841,
+            "id": 4175,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.941978,
@@ -2223,10 +2223,10 @@
             "viento_kmh": 1.4400000000000002,
             "fecha_hora": "2026-09-04T18:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:05.724341+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:58.249403+00:00"
         },
         {
-            "id": 2842,
+            "id": 4176,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.41218,
@@ -2236,10 +2236,10 @@
             "viento_kmh": 11.088000000000001,
             "fecha_hora": "2026-09-04T18:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:05.929348+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:59.046542+00:00"
         },
         {
-            "id": 2843,
+            "id": 4177,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.383624,
@@ -2249,10 +2249,10 @@
             "viento_kmh": 9.972,
             "fecha_hora": "2026-09-04T19:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:06.138647+00:00"
+            "fecha_recepcion": "2026-09-13T20:46:59.921388+00:00"
         },
         {
-            "id": 2844,
+            "id": 4178,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.361845,
@@ -2262,10 +2262,10 @@
             "viento_kmh": 8.064000000000002,
             "fecha_hora": "2026-09-04T19:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:06.444752+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:00.690651+00:00"
         },
         {
-            "id": 2845,
+            "id": 4179,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.707059,
@@ -2275,10 +2275,10 @@
             "viento_kmh": 3.9960000000000004,
             "fecha_hora": "2026-09-04T20:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:06.653683+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:01.425968+00:00"
         },
         {
-            "id": 2846,
+            "id": 4180,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.216217,
@@ -2288,10 +2288,10 @@
             "viento_kmh": 27.612000000000002,
             "fecha_hora": "2026-09-04T20:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:06.854244+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:02.219853+00:00"
         },
         {
-            "id": 2847,
+            "id": 4181,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.70482,
@@ -2301,10 +2301,10 @@
             "viento_kmh": 12.924,
             "fecha_hora": "2026-09-04T21:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:07.146889+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:03.047284+00:00"
         },
         {
-            "id": 2848,
+            "id": 4182,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.939204,
@@ -2314,10 +2314,10 @@
             "viento_kmh": 7.668,
             "fecha_hora": "2026-09-04T21:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:07.355004+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:03.899831+00:00"
         },
         {
-            "id": 2849,
+            "id": 4183,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.47573,
@@ -2327,10 +2327,10 @@
             "viento_kmh": 18.072,
             "fecha_hora": "2026-09-04T22:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:07.547462+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:04.677523+00:00"
         },
         {
-            "id": 2850,
+            "id": 4184,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.438267,
@@ -2340,10 +2340,10 @@
             "viento_kmh": 0.936,
             "fecha_hora": "2026-09-04T22:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:07.769673+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:05.454697+00:00"
         },
         {
-            "id": 2851,
+            "id": 4185,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.707242,
@@ -2353,10 +2353,10 @@
             "viento_kmh": 10.620000000000001,
             "fecha_hora": "2026-09-04T23:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:07.979955+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:06.219049+00:00"
         },
         {
-            "id": 2852,
+            "id": 4186,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.232287,
@@ -2366,10 +2366,10 @@
             "viento_kmh": 28.008000000000003,
             "fecha_hora": "2026-09-04T23:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:08.205283+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:06.976900+00:00"
         },
         {
-            "id": 2853,
+            "id": 4187,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.239087,
@@ -2379,10 +2379,10 @@
             "viento_kmh": 24.588,
             "fecha_hora": "2026-09-05T00:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:08.416634+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:07.739760+00:00"
         },
         {
-            "id": 2854,
+            "id": 4188,
             "ciudad": "Cali",
             "pais": "CO",
             "latitud": 3.479097,
@@ -2392,10 +2392,10 @@
             "viento_kmh": 4.716,
             "fecha_hora": "2026-09-05T00:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:08.614766+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:08.521799+00:00"
         },
         {
-            "id": 2855,
+            "id": 4189,
             "ciudad": "Medellin",
             "pais": "CO",
             "latitud": 6.258573,
@@ -2405,10 +2405,10 @@
             "viento_kmh": 15.192,
             "fecha_hora": "2026-09-05T01:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:08.912599+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:09.398910+00:00"
         },
         {
-            "id": 2856,
+            "id": 4190,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.41658,
@@ -2418,10 +2418,10 @@
             "viento_kmh": 6.732,
             "fecha_hora": "2026-09-05T01:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:09.105339+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:10.385325+00:00"
         },
         {
-            "id": 2857,
+            "id": 4191,
             "ciudad": "Bogota",
             "pais": "CO",
             "latitud": 4.698228,
@@ -2431,10 +2431,10 @@
             "viento_kmh": 7.5600000000000005,
             "fecha_hora": "2026-09-05T02:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:09.295297+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:11.292006+00:00"
         },
         {
-            "id": 2858,
+            "id": 4192,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.384184,
@@ -2444,10 +2444,10 @@
             "viento_kmh": 5.22,
             "fecha_hora": "2026-09-05T02:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:09.507959+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:12.097342+00:00"
         },
         {
-            "id": 2859,
+            "id": 4193,
             "ciudad": "Cartagena",
             "pais": "CO",
             "latitud": 10.418775,
@@ -2457,10 +2457,10 @@
             "viento_kmh": 18.0,
             "fecha_hora": "2026-09-05T03:00:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:09.706321+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:12.925155+00:00"
         },
         {
-            "id": 2860,
+            "id": 4194,
             "ciudad": "Barranquilla",
             "pais": "CO",
             "latitud": 10.993677,
@@ -2470,7 +2470,7 @@
             "viento_kmh": 9.612,
             "fecha_hora": "2026-09-05T03:30:00-05:00",
             "origen": "proveedor_a",
-            "fecha_recepcion": "2026-09-13T07:06:09.947982+00:00"
+            "fecha_recepcion": "2026-09-13T20:47:13.685709+00:00"
         }
     ]
 }
