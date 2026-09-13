@@ -40,12 +40,12 @@ Esta separación permitió aislar el motor de procesamiento para que cualquier e
 Resumen de métricas de procesamiento
 | Métrica | Cantidad |
 |---|---:|
-| Total de registros procesados | 1,250 |
-| Registros normalizados exitosamente | 1,180 |
-| Registros rechazados localmente | 70 |
-| Registros enviados a la API | 1,180 |
-| Registros aceptados por la API | 1,120 |
-| Registros rechazados por la API | 60 |
+| Total de registros procesados | 394 |
+| Registros normalizados exitosamente | 394 |
+| Registros rechazados localmente | 18 |
+| Registros enviados a la API | 382 |
+| Registros aceptados por la API | 0 |
+| Registros rechazados por la API | 382 |
 
 
 ## Casos de error y respuestas del sistema
