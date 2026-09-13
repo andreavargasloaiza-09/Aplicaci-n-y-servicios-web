@@ -1,0 +1,13 @@
+{
+    "estadisticas": {
+        "total_registros_procesados": 0,
+        "proveedor_a_procesados": 0,
+        "proveedor_b_procesados": 0,
+        "validos_localmente": 0,
+        "rechazados_localmente": 0,
+        "exitosos_en_api": 0,
+        "fallidos_en_api": 0
+    },
+    "detalle_rechazados_localmente": [],
+    "detalle_fallios_api": []
+}
