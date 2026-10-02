@@ -1,7 +1,10 @@
 import os
 from collections.abc import Generator
+from dotenv import load_dotenv
 from sqlalchemy import create_engine
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
+
+load_dotenv()
 
 class Base(DeclarativeBase):
     pass
