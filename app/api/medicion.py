@@ -38,3 +38,24 @@ def obtener_mediciones_historicas(
     )
     
     return mediciones
+
+from app.crud import sensor as crud_sensor
+
+@router.get("/mediciones/{id}", response_model=MedicionResponse)
+def obtener_medicion(id: int, db: Session = Depends(get_db)):
+    medicion = crud_medicion.get_medicion_by_id(db, id)
+    if not medicion:
+        raise HTTPException(status_code=404, detail="Medición no encontrada")
+    return medicion
+
+@router.get("/sensores/{id}/ultima-medicion", response_model=MedicionResponse)
+def obtener_ultima_medicion(id: int, db: Session = Depends(get_db)):
+    # Primero verificamos si el sensor existe para dar un error adecuado
+    sensor = crud_sensor.get_sensor_by_id(db, id)
+    if not sensor:
+        raise HTTPException(status_code=404, detail="Sensor no encontrado")
+        
+    medicion = crud_medicion.get_ultima_medicion(db, id)
+    if not medicion:
+        raise HTTPException(status_code=404, detail="El sensor no tiene mediciones registradas")
+    return medicion

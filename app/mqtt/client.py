@@ -54,7 +54,7 @@ def procesar_mensaje(payload_str: str, topic: str):
             )
             nuevas_mediciones.append(nueva_medicion)
             
-        # 4. Almacenar si todo es válido
+        # 4. Almacenar si todo es valido
         if nuevas_mediciones:
             db.add_all(nuevas_mediciones)
             db.commit()

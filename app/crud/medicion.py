@@ -25,3 +25,11 @@ def get_mediciones_historicas(
         
     # Ordenar por fecha descendente y limitar la cantidad
     return query.order_by(Medicion.timestamp_utc.desc()).limit(limit).all()
+
+def get_medicion_by_id(db: Session, medicion_id: int):
+    return db.query(Medicion).filter(Medicion.id == medicion_id).first()
+
+def get_ultima_medicion(db: Session, sensor_id: int):
+    return db.query(Medicion).join(SensorMagnitud).filter(
+        SensorMagnitud.sensor_id == sensor_id
+    ).order_by(Medicion.timestamp_utc.desc()).first()
