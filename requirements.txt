@@ -5,3 +5,4 @@ psycopg2-binary
 pydantic
 paho-mqtt
 python-dotenv
+tzdata

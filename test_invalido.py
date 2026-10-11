@@ -1,0 +1,1 @@
+import json, paho.mqtt.client as mqtt; c = mqtt.Client(); c.connect("broker.hivemq.com", 1883); c.publish("iot/sensors/ENV-999/data", json.dumps({"sensor_id": "ENV-999", "timestamp": "2026-10-10T00:00:00Z", "lecturas": [{"magnitud": "temperatura", "valor": 25.0, "unidad": "C"}]})); c.disconnect(); print("Enviado")

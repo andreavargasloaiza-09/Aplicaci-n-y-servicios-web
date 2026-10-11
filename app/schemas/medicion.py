@@ -1,5 +1,5 @@
-from pydantic import BaseModel, Field
-from datetime import datetime
+from pydantic import BaseModel, Field, field_validator
+from datetime import datetime, timezone
 from typing import Dict
 import zoneinfo
 
@@ -11,6 +11,14 @@ class MQTTPayload(BaseModel):
     sensor_id: str
     timestamp: datetime
     measurements: Dict[str, MeasurementValue]
+
+    @field_validator("timestamp")
+    @classmethod
+    def validate_utc_timestamp(cls, value: datetime) -> datetime:
+        # Asegura que el timestamp recibido tenga zona horaria explícita o la interprete como UTC
+        if value.tzinfo is None:
+            value = value.replace(tzinfo=timezone.utc)
+        return value
 
 class MedicionResponse(BaseModel):
     id: int

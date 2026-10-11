@@ -8,6 +8,8 @@ from app.database.connection import SessionLocal
 from app.models.sensor import Sensor
 from app.models.sensor_magnitud import SensorMagnitud
 from app.models.medicion import Medicion
+from app.crud.medicion import create_medicion
+from app.crud.sensor_magnitud import get_sensor_magnitud_by_sensor_and_nombre
 
 BROKER = os.getenv("MQTT_BROKER")
 PORT = int(os.getenv("MQTT_PORT", "1883"))
@@ -26,13 +28,11 @@ def procesar_mensaje(payload_str: str, topic: str):
             print(f"Rechazado: Sensor {payload.sensor_id} no existe o inactivo.")
             return
         
-        nuevas_mediciones = []
+        mediciones_a_crear = []
+
         # 3. Validar Magnitudes y Unidades
         for mag_nombre, mag_data in payload.measurements.items():
-            magnitud_db = db.query(SensorMagnitud).filter(
-                SensorMagnitud.sensor_id == sensor.id,
-                SensorMagnitud.magnitud == mag_nombre
-            ).first()
+            magnitud_db = get_sensor_magnitud_by_sensor_and_nombre(db, sensor.id, mag_nombre)
             
             if not magnitud_db:
                 print(f"Rechazado: Magnitud {mag_nombre} no asociada al sensor.")
@@ -43,22 +43,26 @@ def procesar_mensaje(payload_str: str, topic: str):
                 return
                 
             if not (magnitud_db.valor_minimo <= mag_data.value <= magnitud_db.valor_maximo):
-                print(f"Rechazado: Valor {mag_data.value} fuera de rango para {mag_nombre}.")
+                print(f"Rechazado: Valor {mag_data.value} fuera de rango [{magnitud_db.valor_minimo}, {magnitud_db.valor_maximo}] para '{mag_nombre}'.")
                 return
                 
             # Crear objeto de medición
-            nueva_medicion = Medicion(
-                sensor_magnitud_id=magnitud_db.id,
-                valor=mag_data.value,
-                timestamp_utc=payload.timestamp
-            )
-            nuevas_mediciones.append(nueva_medicion)
+            mediciones_a_crear.append({
+                "sensor_magnitud_id": magnitud_db.id,
+                "valor": mag_data.value,
+                "timestamp_utc": payload.timestamp
+            })
             
         # 4. Almacenar si todo es valido
-        if nuevas_mediciones:
-            db.add_all(nuevas_mediciones)
-            db.commit()
-            print(f"Guardado: {len(nuevas_mediciones)} mediciones del sensor {payload.sensor_id}")
+        for item in mediciones_a_crear:
+            create_medicion(
+                db=db,
+                sensor_magnitud_id=item["sensor_magnitud_id"],
+                valor=item["valor"],
+                timestamp_utc=item["timestamp_utc"]
+            )
+            
+        print(f"Éxito: Se guardaron {len(mediciones_a_crear)} mediciones del sensor {payload.sensor_id}.")
             
     except ValidationError as e:
         print(f"Rechazado: Error de validación Pydantic: {e}")

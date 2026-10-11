@@ -2,6 +2,22 @@
 
 **API para adquisición, validación y consulta de datos IoT con FastAPI, MQTT y PostgreSQL**
 
+**Integrantes:**
+Samuel Montoya Galeano
+Andrea Vargas Loaiza
+
+**Asignatura.**
+APLICACIÓN Y SERVICIOS WEB 580202009-1
+
+**Fecha.**
+10 de Octubre del 2026
+
+**Sensor asignado.**
+ENV-002
+
+**Tópico MQTT utilizado.**
+iot/sensors/ENV-002/data
+
 ---
 
 | Campo | Valor |
@@ -395,22 +411,22 @@ Se deberán demostrar los siguientes códigos HTTP:
 |---|---|---|
 | 1 | Recepción MQTT | Mensaje recibido desde el tópico asignado |
 | 2 | Medición válida | Registro almacenado en PostgreSQL |
-| 3 | Sensor inexistente | Mensaje rechazado |
-| 4 | Unidad incorrecta | Mensaje rechazado |
+| 3 | Sensor inexistente | Mensaje rechazado | 
+| 4 | Unidad incorrecta | Mensaje rechazado | 
 | 5 | Tipo de dato incorrecto | Mensaje rechazado |
-| 6 | Magnitud incorrecta | Mensaje rechazado |
-| 7 | Timestamp inválido | Mensaje rechazado |
-| 8 | Consulta por ID existente | Respuesta correcta |
-| 9 | Consulta por ID inexistente | `404` |
-| 10 | Consulta histórica | Datos históricos retornados |
-| 11 | Consulta por rango de fechas | Datos filtrados |
-| 12 | Rango `desde > hasta` | `400` |
-| 13 | Validación HTTP incorrecta | `422` |
-| 14 | Última medición | Registro más reciente |
-| 15 | Últimas N mediciones | Uso correcto de `limit` |
-| 16 | Filtro por magnitud | Resultado filtrado |
-| 17 | Claves foráneas | Relación implementada correctamente |
-| 18 | Separación de responsabilidades | Organización correcta del código |
+| 6 | Magnitud incorrecta | Mensaje rechazado | 
+| 7 | Timestamp inválido | Mensaje rechazado | 
+| 8 | Consulta por ID existente | Respuesta correcta | 
+| 9 | Consulta por ID inexistente | `404` | 
+| 10 | Consulta histórica | Datos históricos retornados | 
+| 11 | Consulta por rango de fechas | Datos filtrados | 
+| 12 | Rango `desde > hasta` | `400` | 
+| 13 | Validación HTTP incorrecta | `422` | 
+| 14 | Última medición | Registro más reciente | 
+| 15 | Últimas N mediciones | Uso correcto de `limit` | 
+| 16 | Filtro por magnitud | Resultado filtrado | 
+| 17 | Claves foráneas | Relación implementada correctamente | 
+| 18 | Separación de responsabilidades | Organización correcta del código | 
 
 Para cada prueba se deberá indicar:
 
@@ -422,6 +438,27 @@ Para cada prueba se deberá indicar:
 - breve explicación.
 
 No es necesario incluir capturas del código fuente.
+
+| # | Datos de entrada | Resultado obtenido | Código HTTP | Registro almacenado / rechazado | Archivo y función de la lógica | Breve explicación | Captura / Imagen |
+|---|---|---|---|---|---|---|---|
+| **1** | Inicio del servidor FastAPI y ejecución del evento `@app.on_event("startup")` | Log en consola: `Iniciando cliente MQTT...` y `Application startup complete.` | N/A | N/A | `app/main.py` (`startup_event`) y `app/mqtt/client.py` (`conectar_mqtt`) | Al arrancar la aplicación Web/API, se inicializa automáticamente el cliente MQTT y se establece la conexión con el broker en segundo plano.| `![Evidencia 1](evidencias/evd_01.png)` |
+| **2** | Tópico: `iot/sensors/ENV-002/data`<br>Payload JSON con lecturas del simulador | Log en consola: `Éxito: Se guardaron 3 mediciones del sensor ENV-002.` | N/A | **Almacenado** | `app/mqtt/client.py` (`on_message`), `app/crud/crud_medicion.py` (`guardar_mediciones`) | El cliente MQTT procesa los mensajes entrantes, valida la estructura del payload y almacena las lecturas en la base de datos.| `![Evidencia 2](evidencias/evd_02.png)` |
+| **3** | `GET /sensores/{id}/mediciones`<br>Params: `id = 999`, `limit = 100` | Respuesta JSON: `{"detail": "Sensor no encontrado"}` | `404 Not Found` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Se valida la existencia del sensor en la BD antes de consultar el historial. Al no existir el ID 999, el sistema retorna una excepción HTTP 404. | `![Evidencia 3](evidencias/evd_03.png)` |
+| **4** | Tópico: `iot/sensors/ENV-002/data`<br>Payload con unidad inválida para `humidity` | Log en consola: `Rechazado: Unidad incorrecta para humidity. Esperada %` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | En el paso 3 de la función se valida que `magnitud_db.unidad == mag_data.unit`. Al detectar una unidad diferente a `%`, detiene la ejecución con un `return`.| `![Evidencia 4](evidencias/evidencia4.png)` |
+| **5** | Tópico: `iot/sensors/ENV-002/data`<br>Payload JSON con propiedad incompleta (falta `value` en `illuminance`) | Log en consola: `Rechazado: Error de validación Pydantic: 1 validation error for MQTTPayload measurements.illuminance.value Field required` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | En el paso 1, Pydantic detecta que falta la clave `value` obligatoria en `illuminance`, elevando una `ValidationError` que aborta el guardado. | `![Evidencia 5](evidencias/evd_05.png)` |
+| **6** | Tópico: `iot/sensors/ENV-002/data`<br>Payload con magnitud incorrecta / no asociada (`co2`) | Log en consola: `Rechazado: Magnitud co2 no asociada al sensor.` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | Valida contra la base de datos que la magnitud pertenezca al sensor. Al recibir `co2` no vinculada, la función `get_sensor_magnitud_by_sensor_and_nombre` retorna `None` y rechaza el mensaje. | `![Evidencia 6](evidencias/evd_06.png)` |
+| **7** |Tópico: `iot/sensors/ENV-002/data`<br>Payload con `timestamp` inválido (`"not-a-timestamp"`) | Log en consola: `Rechazado: Error de validación Pydantic: 1 validation error for MQTTPayload timestamp... Input should be a valid datetime or date` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | En el paso 1, Pydantic valida que el campo `timestamp` cumpla con el formato ISO `datetime`. Al recibir una cadena no válida, eleva una `ValidationError` y detiene el proceso. | `![Evidencia 7](evidencias/evd_07.png)` |
+| **8** | `GET /sensores/{id}`<br>Params: `id = 1` | Objeto JSON con el detalle del sensor ID 1 (`AQ-001`). | `200 OK` | N/A (Consulta) | `app/api/sensor.py` (`obtener_sensor`) | Consulta la tabla de sensores por la clave primaria ID 1. Al existir en la BD, retorna el objeto del sensor parametrizado. | `![Evidencia 8](evidencias/evd_08.png)` |
+| **9** | `GET /sensores/{id}`<br>Params: `id = 16` | Respuesta JSON: `{"detail": "Sensor no encontrado"}` | `404 Not Found` | N/A (Consulta) | `app/api/sensor.py` (`obtener_sensor`) | Se consulta un sensor inexistente (ID 16). La función valida contra la base de datos y, al no hallar el registro, retorna una excepción HTTP 404. | `![Evidencia 9](evidencias/evidencia9.png)` |
+| **10** | `GET /sensores/{id}/mediciones`<br>Params: `id = 2`, `limit = 100` | Listado JSON de mediciones históricas con marca de tiempo convertida a `timestamp_local`. | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Valida la existencia del sensor ID 2 en la BD, recupera su historial de mediciones, aplica la conversión de fecha a hora local y retorna la lista con código HTTP 200. | `![Evidencia 10](evidencias/evidencia10.png)` |
+| **11** | `GET /sensores/2/mediciones`<br>Params: `desde = 2026-10-08T00:00:00`, `hasta = 2026-10-08T23:59:59` | Arreglo JSON filtrado con mediciones dentro del rango temporal especificado. | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Valida el rango de fechas e incluye las condiciones `>= desde` y `<= hasta` en la consulta ORM a la BD, retornando los registros correspondientes. | `![Evidencia 11](evidencias/evd_11.png)` |
+| **12** | `GET /sensores/2/mediciones`<br>Params: `desde = 2026-10-10T10:00:00`, `hasta = 2026-10-10T08:00:00` | Respuesta JSON: `{"detail": "La fecha 'desde' no puede ser mayor a 'hasta'"}` | `400 Bad Request` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Evalúa si `desde > hasta`. Al ser incoherente el rango temporal, detiene la ejecución y retorna una excepción HTTP 400. | `![Evidencia 12](evidencias/evd_12.png)` |
+| **13** | `GET /sensores/2/mediciones`<br>Params: `hasta = "fecha_invalida"` | Respuesta JSON de validación: `Input should be a valid datetime or date, invalid character in year` | `422 Unprocessable Content` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | FastAPI convalida los tipos de datos declarados. Al enviar una cadena no convertible a fecha en el query param `hasta`, Pydantic intercepta la petición y retorna un error 422. | `![Evidencia 13](evidencias/evd_13.png)` |
+| **14** | `GET /sensores/2/ultima-medicion`<br>Param: `id = 2` | Objeto JSON con la última lectura registrada (`id: 10381`, timestamp de las 21:57:43). | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_ultima_medicion`) | Realiza una consulta con ordenamiento descendente por marca de tiempo (`DESC`) y `LIMIT 1`, devolviendo la medición con el timestamp más reciente registrado para el sensor. | `![Evidencia 14](evidencias/evd_14.png)` |
+| **15** | `GET /sensores/2/mediciones`<br>Params: `id = 2`, `limit = 1` | Arreglo JSON con exactamente 1 registro (la medición más reciente). | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Utiliza el parámetro de consulta `limit` para truncar la respuesta de la BD a un único registro ($N=1$) mediante la cláusula `.limit()`. | `![Evidencia 15](evidencias/evd_15.png)` |
+| **16** | `GET /sensores/2/mediciones`<br>Params: `id = 2`, `magnitud = "pm2_5"` | Arreglo JSON de mediciones filtrado exclusivamente por la magnitud solicitada (`pm2_5`). | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Realiza un JOIN entre `Medicion` y `SensorMagnitud` para aplicar el filtro por el nombre de la magnitud especificada en la petición. | `![Evidencia 16](evidencias/evd_16.png)` |
+| **17** | `GET /sensores/2/mediciones`<br>Params: `id = 2`, `magnitud = "pm2_5"` | Respuesta JSON donde se valida la resolución correcta de la clave foránea entre `mediciones` y `sensores_magnitudes`. | `200 OK` | N/A (Relación relacional) | `app/crud/medicion.py` | La consulta valida e integra las llaves foráneas en la base de datos. La respuesta confirma que la relación relacional está correctamente vinculada e implementada. | `![Evidencia 17](evidencias/evd_16.png)` |
+| **18** | Árbol de archivos del proyecto (`app/`) | Módulos organizados por capas (`api`, `crud`, `models`, `schemas`). | `N/A` | N/A (Arquitectura) | Estructura modular del proyecto | Demuestra la separación de responsabilidades organizando el código en carpetas independientes para peticiones HTTP, operaciones en BD, modelos relacionales y esquemas de validación. | `![Evidencia 18](evidencias/evd_18.png)` |
 
 ---
 
@@ -477,12 +514,55 @@ No se aceptarán informes externos en Word o PDF.
 - Sensor asignado.
 - Tópico MQTT utilizado.
 
-#### 2. Descripción del Sistema
+### 2. Descripción del Sistema
 
-- Problema resuelto.
-- Arquitectura implementada.
-- Magnitudes y unidades recibidas.
-- Payload real del sensor.
+#### Problema Resuelto
+El sistema resuelve la necesidad de monitorear, centralizar y consultar en tiempo real las mediciones ambientales recolectadas por estaciones IoT. Permite procesar el flujo constante de datos a través de MQTT, validar las mediciones frente a reglas de rango y unidades, almacenar el historial de lecturas de forma estructurada, garantizar la integridad referencial y ofrecer una API REST para consultar la información de manera filtrada, paginada y ajustada a la zona horaria local.
+
+#### Arquitectura Implementada
+El backend está desarrollado bajo una arquitectura limpia y desacoplada en capas utilizando **FastAPI** y **SQLAlchemy ORM**:
+* **Capa de API (`app/api`):** Define los endpoints REST, gestiona el enrutamiento HTTP y las respuestas.
+* **Capa de Esquemas (`app/schemas`):** Utiliza Pydantic para la validación estricta de tipos de entrada, payloads MQTT y serialización de salida.
+* **Capa CRUD (`app/crud`):** Encapsula la lógica de negocio y las operaciones de consulta/escritura a la base de datos.
+* **Capa de Modelos (`app/models`):** Define la estructura relacional de las tablas y sus llaves foráneas (`sensores`, `sensores_magnitudes`, `mediciones`).
+* **Capa de Base de Datos (`app/database`):** Gestiona la conexión y las sesiones con la base de datos mediante SQLAlchemy.
+* **Cliente MQTT (`app/mqtt`):** Suscriptor encargado de recibir y procesar en tiempo real las lecturas enviadas por los dispositivos IoT en segundo plano.
+
+#### Magnitudes y Unidades Recibidas
+El sistema procesa y valida dinámicamente las siguientes magnitudes físicas según la configuración del sensor:
+* **`co2` / `eco2`**: Dióxido de carbono y dióxido de carbono equivalente (Unidad: `ppm`).
+* **`tvoc`**: Compuestos Orgánicos Volátiles Totales (Unidad: `ppb`).
+* **`ch4`**: Metano (Unidad: `ppm`).
+* **`humidity`**: Humedad relativa (Unidad: `%`).
+* **`temperature`**: Temperatura ambiental (Unidad: `C`).
+* **`pm10` / `pm2_5` / `pm1_0`**: Material particulado (Unidad: `ug/m3`).
+
+#### Payload Real del Sensor
+Estructura JSON recibida a través del broker MQTT y procesada por la función `procesar_mensaje` mediante el esquema `MQTTPayload`:
+
+```json
+{
+  "sensor_id": "ENV-002",
+  "timestamp": "2026-10-08T21:57:43Z",
+  "measurements": {
+    "temperature": {
+      "value": 24.5,
+      "unit": "C"
+    },
+    "humidity": {
+      "value": 60.0,
+      "unit": "%"
+    },
+    "co2": {
+      "value": 450.0,
+      "unit": "ppm"
+    },
+    "tvoc": {
+      "value": 120.0,
+      "unit": "ppb"
+    }
+  }
+}
 
 #### 3. Configuración del Entorno
 
@@ -513,8 +593,18 @@ Describir la función de:
 
 Tabla con:
 
+#### 6. Endpoints Implementados
+
 | Método | Ruta | Descripción |
 |---|---|---|
+| `GET` | `/sensores` | Lista todos los sensores registrados en el sistema. |
+| `GET` | `/sensores/{id}` | Obtiene la información detallada de un sensor específico según su ID. |
+| `GET` | `/sensores/por-codigo/{codigo}` | Busca y retorna la información de un sensor utilizando su código único. |
+| `GET` | `/sensores/{id}/magnitudes` | Lista todas las magnitudes o variables físicas asociadas a un sensor determinado. |
+| `GET` | `/sensor-magnitudes/{id}` | Obtiene los detalles de una relación específica entre un sensor y una magnitud por su ID. |
+| `GET` | `/sensores/{id}/mediciones` | Consulta el historial de mediciones de un sensor. Permite filtrado por rango de fechas (`desde`, `hasta`), magnitud (`magnitud`) y límite de registros (`limit`). |
+| `GET` | `/mediciones/{id}` | Obtiene los detalles de una lectura de medición individual por su ID. |
+| `GET` | `/sensores/{id}/ultima-medicion` | Devuelve la última lectura registrada (la más reciente en el tiempo) para un sensor específico, convirtiendo la marca de tiempo a la hora local. |
 
 #### 7. Evidencias de Funcionamiento
 
@@ -536,9 +626,20 @@ Para cada evidencia se debe indicar el archivo y la función relacionados con la
 
 #### 9. Conclusiones
 
-- Principales aprendizajes.
-- Dificultades encontradas.
-- Soluciones aplicadas.
+- **Principales aprendizajes:**
+  - Implementación de una arquitectura limpia por capas en FastAPI (API, CRUD, Modelos, Esquemas), logrando un código desacoplado, mantenible y escalable.
+  - Integración efectiva de clientes MQTT en segundo plano para la ingesta en tiempo real de datos IoT, validando esquemas dinámicos mediante Pydantic antes de su persistencia.
+  - Gestión rigurosa de integridad referencial y mapeo relacional de base de datos (`ForeignKey` y `relationship` en SQLAlchemy) para asociar sensores, magnitudes y mediciones.
+
+- **Dificultades encontradas:**
+  - Descalce en la serialización de respuestas HTTP (`ResponseValidationError`) por la ausencia del atributo `timestamp_local` al retornar objetos ORM directos de la base de datos.
+  - Complejidad en la sincronización de marcas de tiempo UTC almacenadas en la base de datos frente a la presentación de hora local requerida por el cliente.
+  - Discrepancias en el ordenamiento temporal al consultar la "última medición", donde la ausencia de un ordenamiento descendente explícito retornaba el registro más antiguo en lugar del más reciente.
+
+- **Soluciones aplicadas:**
+  - Adaptación en la capa API para calcular y convertir explícitamente el `timestamp_utc` a la zona horaria local (`astimezone()`) antes de serializar la respuesta en el modelo `MedicionResponse`.
+  - Configuración de consultas ORM con cláusulas `ORDER BY timestamp_utc DESC` y `LIMIT 1` para garantizar la recuperación precisa del registro temporal más reciente.
+  - Implementación de validaciones estrictas en la ingesta MQTT que verifican la existencia del sensor, el rango de valores permitido (`valor_minimo` y `valor_maximo`) y la concordancia de unidades antes de guardar en base de datos.
 
 ### Requisitos del Repositorio
 

@@ -37,7 +37,7 @@ def obtener_mediciones_historicas(
         limit=limit
     )
     
-    return mediciones
+    return [MedicionResponse.from_orm(m) for m in mediciones]
 
 from app.crud import sensor as crud_sensor
 
@@ -58,4 +58,7 @@ def obtener_ultima_medicion(id: int, db: Session = Depends(get_db)):
     medicion = crud_medicion.get_ultima_medicion(db, id)
     if not medicion:
         raise HTTPException(status_code=404, detail="El sensor no tiene mediciones registradas")
+    
+    medicion.timestamp_local = medicion.timestamp_utc.astimezone()
+    
     return medicion

@@ -33,3 +33,14 @@ def get_ultima_medicion(db: Session, sensor_id: int):
     return db.query(Medicion).join(SensorMagnitud).filter(
         SensorMagnitud.sensor_id == sensor_id
     ).order_by(Medicion.timestamp_utc.desc()).first()
+
+def create_medicion(db: Session, sensor_magnitud_id: int, valor: float, timestamp_utc: datetime):
+    db_medicion = Medicion(
+        sensor_magnitud_id=sensor_magnitud_id,
+        valor=valor,
+        timestamp_utc=timestamp_utc
+    )
+    db.add(db_medicion)
+    db.commit()
+    db.refresh(db_medicion)
+    return db_medicion
