@@ -3,19 +3,19 @@
 **API para adquisición, validación y consulta de datos IoT con FastAPI, MQTT y PostgreSQL**
 
 **Integrantes:**
-Samuel Montoya Galeano
+Samuel Montoya Galeano  
 Andrea Vargas Loaiza
 
-**Asignatura.**
+**Asignatura.**  
 APLICACIÓN Y SERVICIOS WEB 580202009-1
 
-**Fecha.**
+**Fecha.**  
 10 de Octubre del 2026
 
-**Sensor asignado.**
+**Sensor asignado.**  
 ENV-002
 
-**Tópico MQTT utilizado.**
+**Tópico MQTT utilizado.**  
 iot/sensors/ENV-002/data
 
 ---
@@ -444,13 +444,13 @@ No es necesario incluir capturas del código fuente.
 | **1** | Inicio del servidor FastAPI y ejecución del evento `@app.on_event("startup")` | Log en consola: `Iniciando cliente MQTT...` y `Application startup complete.` | N/A | N/A | `app/main.py` (`startup_event`) y `app/mqtt/client.py` (`conectar_mqtt`) | Al arrancar la aplicación Web/API, se inicializa automáticamente el cliente MQTT y se establece la conexión con el broker en segundo plano.| ![Evidencia 1](evidencias/evd_01.png) |
 | **2** | Tópico: `iot/sensors/ENV-002/data`<br>Payload JSON con lecturas del simulador | Log en consola: `Éxito: Se guardaron 3 mediciones del sensor ENV-002.` | N/A | **Almacenado** | `app/mqtt/client.py` (`on_message`), `app/crud/crud_medicion.py` (`guardar_mediciones`) | El cliente MQTT procesa los mensajes entrantes, valida la estructura del payload y almacena las lecturas en la base de datos.| ![Evidencia 2](evidencias/evd_02.png) |
 | **3** | `GET /sensores/{id}/mediciones`<br>Params: `id = 999`, `limit = 100` | Respuesta JSON: `{"detail": "Sensor no encontrado"}` | `404 Not Found` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Se valida la existencia del sensor en la BD antes de consultar el historial. Al no existir el ID 999, el sistema retorna una excepción HTTP 404. | ![Evidencia 3](evidencias/evd_03.png) |
-| **4** | Tópico: `iot/sensors/ENV-002/data`<br>Payload con unidad inválida para `humidity` | Log en consola: `Rechazado: Unidad incorrecta para humidity. Esperada %` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | En el paso 3 de la función se valida que `magnitud_db.unidad == mag_data.unit`. Al detectar una unidad diferente a `%`, detiene la ejecución con un `return`.| ![Evidencia 4](evidencias/evidencia4.png) |
+| **4** | Tópico: `iot/sensors/ENV-002/data`<br>Payload con unidad inválida para `humidity` | Log en consola: `Rechazado: Unidad incorrecta para humidity. Esperada %` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | En el paso 3 de la función se valida que `magnitud_db.unidad == mag_data.unit`. Al detectar una unidad diferente a `%`, detiene la ejecución con un `return`.| ![Evidencia 4](evidencias/evd_4.png) |
 | **5** | Tópico: `iot/sensors/ENV-002/data`<br>Payload JSON con propiedad incompleta (falta `value` en `illuminance`) | Log en consola: `Rechazado: Error de validación Pydantic: 1 validation error for MQTTPayload measurements.illuminance.value Field required` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | En el paso 1, Pydantic detecta que falta la clave `value` obligatoria en `illuminance`, elevando una `ValidationError` que aborta el guardado. | ![Evidencia 5](evidencias/evd_05.png) |
 | **6** | Tópico: `iot/sensors/ENV-002/data`<br>Payload con magnitud incorrecta / no asociada (`co2`) | Log en consola: `Rechazado: Magnitud co2 no asociada al sensor.` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | Valida contra la base de datos que la magnitud pertenezca al sensor. Al recibir `co2` no vinculada, la función `get_sensor_magnitud_by_sensor_and_nombre` retorna `None` y rechaza el mensaje. | ![Evidencia 6](evidencias/evd_06.png) |
 | **7** |Tópico: `iot/sensors/ENV-002/data`<br>Payload con `timestamp` inválido (`"not-a-timestamp"`) | Log en consola: `Rechazado: Error de validación Pydantic: 1 validation error for MQTTPayload timestamp... Input should be a valid datetime or date` | N/A | **Rechazado** | `app/mqtt/client.py` (`procesar_mensaje`) | En el paso 1, Pydantic valida que el campo `timestamp` cumpla con el formato ISO `datetime`. Al recibir una cadena no válida, eleva una `ValidationError` y detiene el proceso. | ![Evidencia 7](evidencias/evd_07.png) |
 | **8** | `GET /sensores/{id}`<br>Params: `id = 1` | Objeto JSON con el detalle del sensor ID 1 (`AQ-001`). | `200 OK` | N/A (Consulta) | `app/api/sensor.py` (`obtener_sensor`) | Consulta la tabla de sensores por la clave primaria ID 1. Al existir en la BD, retorna el objeto del sensor parametrizado. | ![Evidencia 8](evidencias/evd_08.png) |
-| **9** | `GET /sensores/{id}`<br>Params: `id = 16` | Respuesta JSON: `{"detail": "Sensor no encontrado"}` | `404 Not Found` | N/A (Consulta) | `app/api/sensor.py` (`obtener_sensor`) | Se consulta un sensor inexistente (ID 16). La función valida contra la base de datos y, al no hallar el registro, retorna una excepción HTTP 404. | ![Evidencia 9](evidencias/evidencia9.png) |
-| **10** | `GET /sensores/{id}/mediciones`<br>Params: `id = 2`, `limit = 100` | Listado JSON de mediciones históricas con marca de tiempo convertida a `timestamp_local`. | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Valida la existencia del sensor ID 2 en la BD, recupera su historial de mediciones, aplica la conversión de fecha a hora local y retorna la lista con código HTTP 200. | ![Evidencia 10](evidencias/evidencia10.png) |
+| **9** | `GET /sensores/{id}`<br>Params: `id = 16` | Respuesta JSON: `{"detail": "Sensor no encontrado"}` | `404 Not Found` | N/A (Consulta) | `app/api/sensor.py` (`obtener_sensor`) | Se consulta un sensor inexistente (ID 16). La función valida contra la base de datos y, al no hallar el registro, retorna una excepción HTTP 404. | ![Evidencia 9](evidencias/evd_09.png) |
+| **10** | `GET /sensores/{id}/mediciones`<br>Params: `id = 2`, `limit = 100` | Listado JSON de mediciones históricas con marca de tiempo convertida a `timestamp_local`. | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Valida la existencia del sensor ID 2 en la BD, recupera su historial de mediciones, aplica la conversión de fecha a hora local y retorna la lista con código HTTP 200. | ![Evidencia 10](evidencias/evd_10.png) |
 | **11** | `GET /sensores/2/mediciones`<br>Params: `desde = 2026-10-08T00:00:00`, `hasta = 2026-10-08T23:59:59` | Arreglo JSON filtrado con mediciones dentro del rango temporal especificado. | `200 OK` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Valida el rango de fechas e incluye las condiciones `>= desde` y `<= hasta` en la consulta ORM a la BD, retornando los registros correspondientes. | ![Evidencia 11](evidencias/evd_11.png) |
 | **12** | `GET /sensores/2/mediciones`<br>Params: `desde = 2026-10-10T10:00:00`, `hasta = 2026-10-10T08:00:00` | Respuesta JSON: `{"detail": "La fecha 'desde' no puede ser mayor a 'hasta'"}` | `400 Bad Request` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | Evalúa si `desde > hasta`. Al ser incoherente el rango temporal, detiene la ejecución y retorna una excepción HTTP 400. | ![Evidencia 12](evidencias/evd_12.png) |
 | **13** | `GET /sensores/2/mediciones`<br>Params: `hasta = "fecha_invalida"` | Respuesta JSON de validación: `Input should be a valid datetime or date, invalid character in year` | `422 Unprocessable Content` | N/A (Consulta) | `app/api/medicion.py` (`obtener_mediciones_historicas`) | FastAPI convalida los tipos de datos declarados. Al enviar una cadena no convertible a fecha en el query param `hasta`, Pydantic intercepta la petición y retorna un error 422. | ![Evidencia 13](evidencias/evd_13.png) |
