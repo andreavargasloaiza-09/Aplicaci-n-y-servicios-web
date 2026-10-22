@@ -118,3 +118,5 @@ git push -u origin clase-7
 Verificar en GitHub que la rama `clase-7` y todos los archivos estén disponibles.
 
 No se debe subir el archivo `.env`, porque puede contener secretos. El archivo `.env.example` sí debe permanecer en el repositorio.
+
+Prueba de autenticacion
