@@ -12,8 +12,8 @@ from src.utils.sql import lista_sql
 
 
 class Reporte(Base):
-    _tablename_ = "reportes"
-    _table_args_ = (
+    __tablename__ = "reportes"
+    __table_args__ = (
         CheckConstraint(f"estado IN ({lista_sql(ESTADOS)})", name="ck_reportes_estado"),
         CheckConstraint(
             f"motivo_cierre IS NULL OR motivo_cierre IN ({lista_sql(MOTIVOS_CIERRE)})",

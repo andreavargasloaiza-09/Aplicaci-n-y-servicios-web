@@ -11,8 +11,8 @@ from src.utils.sql import lista_sql
 
 
 class Usuario(Base):
-    _tablename_ = "usuarios"
-    _table_args_ = (
+    __tablename__ = "usuarios"
+    __table_args__ = (
         CheckConstraint(f"rol IN ({lista_sql(ROLES)})", name="ck_usuarios_rol"),
     )
 

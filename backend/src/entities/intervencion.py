@@ -12,8 +12,8 @@ from src.utils.sql import lista_sql
 
 
 class Intervencion(Base):
-    _tablename_ = "intervenciones"
-    _table_args_ = (
+    __tablename__ = "intervenciones"
+    __table_args__ = (
         CheckConstraint(
             f"tipo IN ({lista_sql(TIPOS_INTERVENCION)})", name="ck_intervenciones_tipo"
         ),

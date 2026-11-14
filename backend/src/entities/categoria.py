@@ -8,8 +8,8 @@ from src.utils.sql import lista_sql
 
 
 class Categoria(Base):
-    _tablename_ = "categorias"
-    _table_args_ = (
+    __tablename__ = "categorias"
+    __table_args__ = (
         CheckConstraint(f"tipo IN ({lista_sql(TIPOS_CATEGORIA)})", name="ck_categorias_tipo"),
     )
 

@@ -3,9 +3,9 @@ from pathlib import Path
 
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
-BASE_DIR = Path(_file_).resolve().parents[2]   # carpeta backend/ (este archivo está en backend/src/utils/)
-ROOT_DIR = BASE_DIR.parent
-FRONTEND_DIR = ROOT_DIR / "frontend"                           # raíz del repositorio
+BASE_DIR = Path(__file__).resolve().parents[2]   # carpeta backend/ (este archivo está en backend/src/utils/)
+ROOT_DIR = BASE_DIR.parent   # raíz del repositorio
+FRONTEND_DIR = ROOT_DIR / "frontend"
 
 
 class Settings(BaseSettings):

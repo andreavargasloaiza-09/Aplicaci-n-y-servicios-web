@@ -15,7 +15,7 @@ router = APIRouter(prefix="/api/auth", tags=["Autenticación"])
 
 @router.post("/login", response_model=TokenSalida, summary="Iniciar sesión")
 def login(form: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
-    """username es el correo del usuario."""
+    """`username` es el correo del usuario."""
     correo = form.username.strip().lower()
     usuario = db.execute(select(Usuario).where(Usuario.correo == correo)).scalar_one_or_none()
     if usuario is None or not usuario.activo or not verificar_password(form.password, usuario.password_hash):
